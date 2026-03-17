@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rocket Rob — Full Production Bible</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* ── Bible-page specific overrides ── */
+    .bible-hero {
+      background: var(--deep-navy);
+      padding: 6rem 2rem 4rem;
+      text-align: center;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .bible-hero .section-label { color: var(--warm-gold); }
+    .bible-hero h1 { color: var(--white); font-size: clamp(2rem,5vw,3.5rem); margin: 0.5rem 0 1rem; }
+    .bible-hero p { color: rgba(255,255,255,0.6); max-width: 620px; margin: 0 auto; font-size: 1rem; line-height: 1.7; }
+
+    /* Back link banner */
+    .back-banner {
+      background: var(--rocket-red);
+      text-align: center;
+      padding: 0.75rem;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    .back-banner a { color: var(--white); text-decoration: none; }
+    .back-banner a:hover { text-decoration: underline; }
+
+    /* Profile cards */
+    .profile-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2.5rem;
+    }
+    .profile-card {
+      background: var(--white);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    }
+    .profile-card-img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      object-position: center top;
+      display: block;
+    }
+    .profile-card-body { padding: 1.5rem; }
+    .profile-card-role {
+      font-size: 0.68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--rocket-red);
+      margin-bottom: 0.4rem;
+    }
+    .profile-card-name {
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: var(--deep-navy);
+      margin-bottom: 0.5rem;
+    }
+    .profile-card-quote {
+      font-style: italic;
+      font-size: 0.88rem;
+      color: var(--slate-gray);
+      border-left: 3px solid var(--warm-gold);
+      padding-left: 0.75rem;
+      margin-bottom: 1rem;
+    }
+    .profile-card-body p { font-size: 0.88rem; line-height: 1.6; color: var(--text-medium); margin-bottom: 0.75rem; }
+    .profile-card-body p:last-child { margin-bottom: 0; }
+    .profile-tag {
+      display: inline-block;
+      background: var(--light-gray);
+      border-radius: 20px;
+      padding: 0.2rem 0.65rem;
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: var(--slate-gray);
+      margin: 0.2rem 0.15rem 0.2rem 0;
+    }
+
+    /* Detail profile (full-width character deep-dive) */
+    .profile-detail {
+      background: var(--white);
+      border-radius: 20px;
+      padding: 2.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+    }
+    .profile-detail-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+    .profile-detail-img {
+      width: 200px;
+      min-width: 200px;
+      height: 200px;
+      object-fit: cover;
+      object-position: center top;
+      border-radius: 16px;
+    }
+    .profile-detail-meta { flex: 1; }
+    .profile-detail h2 { font-size: 1.8rem; font-weight: 800; color: var(--deep-navy); margin: 0.25rem 0 0.5rem; }
+    .profile-detail-subtitle { font-style: italic; font-size: 1rem; color: var(--slate-gray); margin-bottom: 1rem; border-left: 3px solid var(--warm-gold); padding-left: 0.75rem; }
+    .profile-arc-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.85rem; }
+    .profile-arc-table th { background: var(--deep-navy); color: var(--white); padding: 0.5rem 0.75rem; text-align: left; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.07em; }
+    .profile-arc-table td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--light-gray); color: var(--text-medium); vertical-align: top; }
+    .profile-arc-table tr:last-child td { border-bottom: none; }
+    .profile-arc-table em { color: var(--rocket-red); font-style: normal; font-weight: 600; }
+
+    /* Trait grid */
+    .trait-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 0.75rem; margin: 1rem 0; }
+    .trait-item { background: var(--light-gray); border-radius: 10px; padding: 0.75rem; }
+    .trait-label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; color: var(--rocket-red); margin-bottom: 0.25rem; }
+    .trait-value { font-size: 0.85rem; color: var(--text-medium); }
+
+    /* Key lines */
+    .key-lines { margin: 1.25rem 0; }
+    .key-line { background: var(--light-gray); border-left: 3px solid var(--warm-gold); padding: 0.6rem 0.9rem; margin-bottom: 0.5rem; font-style: italic; font-size: 0.88rem; color: var(--deep-navy); border-radius: 0 8px 8px 0; }
+
+    /* Three-act structure */
+    .act-block {
+      background: var(--white);
+      border-radius: 20px;
+      margin-bottom: 1.5rem;
+      overflow: hidden;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+    }
+    .act-header {
+      padding: 1.25rem 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .act-header--one { background: var(--deep-navy); }
+    .act-header--two { background: var(--rocket-red); }
+    .act-header--three { background: var(--warm-gold); }
+    .act-number { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; opacity: 0.7; color: var(--white); }
+    .act-title { font-size: 1.2rem; font-weight: 800; color: var(--white); }
+    .act-header--three .act-number,
+    .act-header--three .act-title { color: var(--deep-navy); }
+    .act-runtime { margin-left: auto; font-size: 0.78rem; color: rgba(255,255,255,0.6); font-weight: 600; }
+    .act-header--three .act-runtime { color: rgba(26,39,68,0.6); }
+    .act-body { padding: 1.5rem 2rem; }
+    .beat-row { display: flex; gap: 1rem; padding: 0.75rem 0; border-bottom: 1px solid var(--light-gray); align-items: flex-start; }
+    .beat-row:last-child { border-bottom: none; }
+    .beat-time { font-size: 0.72rem; font-weight: 700; color: var(--warm-gold); min-width: 52px; margin-top: 0.15rem; }
+    .beat-content { flex: 1; }
+    .beat-title { font-weight: 700; font-size: 0.9rem; color: var(--deep-navy); margin-bottom: 0.2rem; }
+    .beat-desc { font-size: 0.83rem; color: var(--text-medium); line-height: 1.55; }
+    .beat-emotional { font-size: 0.75rem; color: var(--rocket-red); font-weight: 600; margin-top: 0.2rem; }
+
+    /* World-building */
+    .world-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.25rem;
+      margin-top: 1.5rem;
+    }
+    .world-card {
+      background: var(--white);
+      border-radius: 16px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+      border-top: 4px solid var(--warm-gold);
+    }
+    .world-card-name { font-size: 1rem; font-weight: 800; color: var(--deep-navy); margin-bottom: 0.4rem; }
+    .world-card-desc { font-size: 0.85rem; color: var(--text-medium); line-height: 1.6; }
+
+    /* Episode list */
+    .episode-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.25rem; margin-top: 0.5rem; }
+    .episode-card {
+      background: var(--white);
+      border-radius: 16px;
+      padding: 1.75rem 1.5rem;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+      position: relative;
+      overflow: hidden;
+    }
+    .episode-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: var(--rocket-red);
+    }
+    .episode-number { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--rocket-red); margin-bottom: 0.35rem; }
+    .episode-title { font-size: 1.05rem; font-weight: 800; color: var(--deep-navy); margin-bottom: 0.85rem; }
+    .episode-row { display: flex; gap: 0.5rem; margin-bottom: 0.5rem; font-size: 0.82rem; }
+    .episode-row-label { font-weight: 700; color: var(--deep-navy); min-width: 85px; flex-shrink: 0; }
+    .episode-row-text { color: var(--text-medium); line-height: 1.55; }
+    .episode-theme { margin-top: 0.75rem; padding-top: 0.65rem; border-top: 1px solid var(--light-gray); font-size: 0.8rem; font-style: italic; color: var(--slate-gray); line-height: 1.5; }
+    .episode-card--gold::before { background: var(--warm-gold); }
+    .episode-card--navy::before { background: var(--deep-navy); }
+
+    /* Children's book section */
+    .book-section { background: #FFF9EF; }
+    .book-hero-card {
+      background: var(--warm-gold);
+      border-radius: 24px;
+      padding: 2.5rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      align-items: center;
+      margin-bottom: 2.5rem;
+    }
+    .book-hero-card h3 { font-size: 1.5rem; font-weight: 800; color: var(--deep-navy); margin-bottom: 0.5rem; }
+    .book-hero-card p { font-size: 0.92rem; color: var(--deep-navy); opacity: 0.85; line-height: 1.65; }
+    .book-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; }
+    .book-stat { background: rgba(255,255,255,0.5); border-radius: 12px; padding: 0.75rem; text-align: center; }
+    .book-stat-value { font-size: 1.3rem; font-weight: 800; color: var(--deep-navy); }
+    .book-stat-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--deep-navy); opacity: 0.7; }
+    .book-series-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem; margin-bottom: 2.5rem; }
+    .book-card {
+      background: var(--white);
+      border-radius: 16px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    }
+    .book-card-number { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--warm-gold); margin-bottom: 0.35rem; }
+    .book-card-title { font-size: 1rem; font-weight: 800; color: var(--deep-navy); margin-bottom: 0.5rem; }
+    .book-card-hook { font-size: 0.85rem; color: var(--text-medium); margin-bottom: 0.75rem; line-height: 1.55; }
+    .book-card-spread { font-size: 0.78rem; color: var(--slate-gray); font-style: italic; border-top: 1px solid var(--light-gray); padding-top: 0.5rem; }
+    .book-why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+    .book-why-card { background: var(--white); border-radius: 14px; padding: 1.25rem; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+    .book-why-icon { font-size: 1.4rem; margin-bottom: 0.5rem; }
+    .book-why-title { font-size: 0.88rem; font-weight: 700; color: var(--deep-navy); margin-bottom: 0.35rem; }
+    .book-why-body { font-size: 0.8rem; color: var(--text-medium); line-height: 1.55; }
+
+    /* Theme summary */
+    .theme-summary {
+      background: var(--deep-navy);
+      border-radius: 20px;
+      padding: 2.5rem;
+      text-align: center;
+      margin-top: 3rem;
+    }
+    .theme-summary h3 { color: var(--warm-gold); font-size: 1.3rem; margin-bottom: 0.75rem; }
+    .theme-summary p { color: rgba(255,255,255,0.7); font-size: 0.92rem; line-height: 1.7; max-width: 680px; margin: 0 auto; }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .profile-detail-header { flex-direction: column; }
+      .profile-detail-img { width: 100%; min-width: 0; height: 220px; }
+      .book-hero-card { grid-template-columns: 1fr; }
+      .act-header { flex-wrap: wrap; }
+      .act-runtime { margin-left: 0; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Back banner -->
+<div class="back-banner">
+  <a href="index.html">← Back to Pitch Deck</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="scripts.html">Scripts →</a>
+</div>
+
+<!-- Navigation -->
+<nav id="nav">
+  <div class="nav-inner">
+    <div class="nav-logo">ROCKET <span>ROB</span></div>
+    <ul class="nav-links">
+      <li><a href="#characters">Characters</a></li>
+      <li><a href="#structure">Story Structure</a></li>
+      <li><a href="#world">World</a></li>
+      <li><a href="#expansion">Series</a></li>
+      <li><a href="#book">Kids Book</a></li>
+      <li><a href="index.html" class="back-link">Pitch Deck</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero -->
+<div class="bible-hero">
+  <div class="section-label">Full Production Bible</div>
+  <h1>Rocket Rob — Deep Dive</h1>
+  <p>Everything behind the story. Full character profiles, three-act structure, world-building, series expansion, and the children's book universe. This is the room version — the full picture for anyone who wants to build it.</p>
+</div>
+
+
+<!-- ═══════════════════════════════════════ -->
+<!-- CHARACTER PROFILES                       -->
+<!-- ═══════════════════════════════════════ -->
+
+<section id="characters">
+  <div class="container">
+    <div class="section-label">The Cast</div>
+    <h2 class="section-title">Full Character Profiles</h2>
+    <p class="section-subtitle">Every character argues a different position on the same question. Who they are underneath is what makes the audience stay.</p>
+
+    <!-- ROB -->
+    <div class="profile-detail">
+      <div class="profile-detail-header">
+        <img class="profile-detail-img" src="assets/rob-street-pose.png" alt="Rocket Rob">
+        <div class="profile-detail-meta">
+          <div class="profile-card-role">Protagonist — The Center</div>
+          <h2>Rob Carter / Rocket Rob</h2>
+          <div class="profile-detail-subtitle">"A dad who accidentally became a superhero."</div>
+          <p style="font-size:0.88rem;color:var(--text-medium);line-height:1.6;">Late 20s–early 30s. Canadian. Works at Titan Sports Tech. Trying to balance career demands with being the father Max deserves. In Max's eyes, Rob is already Rocket Rob — the greatest superhero ever. The film's central question is whether Rob can live up to the hero his son sees — and whether the hero was real all along.</p>
+          <div style="margin-top:0.75rem;">
+            <span class="profile-tag">Rocket Red cape</span>
+            <span class="profile-tag">Gray suit</span>
+            <span class="profile-tag">RR belt buckle</span>
+            <span class="profile-tag">Maple leaf pin</span>
+            <span class="profile-tag">Team Canada mug</span>
+          </div>
+        </div>
+      </div>
+      <div class="trait-grid">
+        <div class="trait-item"><div class="trait-label">Core Tension</div><div class="trait-value">Wants to be the hero Max sees. Afraid he's failing at both.</div></div>
+        <div class="trait-item"><div class="trait-label">Source of Power</div><div class="trait-value">Max's belief. Literally. When it goes quiet, he diminishes.</div></div>
+        <div class="trait-item"><div class="trait-label">Running Gag</div><div class="trait-value">Solves everything with dad logic. "Have you tried turning it off and on again?"</div></div>
+        <div class="trait-item"><div class="trait-label">Canadian Identity</div><div class="trait-value">He brought it with him. Maple syrup, hockey jersey, reflexive "sorry."</div></div>
+        <div class="trait-item"><div class="trait-label">Constellation Role</div><div class="trait-value">The Question — powered from below by Max, challenged from above by Volt.</div></div>
+        <div class="trait-item"><div class="trait-label">Arc Resolution</div><div class="trait-value">"The people who love you are the reason to be heroic."</div></div>
+      </div>
+      <div class="key-lines">
+        <div class="key-line">"Barely." — when Claire asks if the city survived</div>
+        <div class="key-line">"Have you tried turning it off and on again?"</div>
+        <div class="key-line">"Because someone's waiting for me at home."</div>
+        <div class="key-line">"Just the parts that matter."</div>
+      </div>
+    </div>
+
+    <!-- CLAIRE -->
+    <div class="profile-detail">
+      <div class="profile-detail-header">
+        <img class="profile-detail-img" src="assets/claire-velocity-split.png" alt="Claire Carter / Velocity">
+        <div class="profile-detail-meta">
+          <div class="profile-card-role">The Grounding Force — With Her Own Arc</div>
+          <h2>Claire Carter / Velocity</h2>
+          <div class="profile-detail-subtitle">"I was Velocity before you were Rocket Rob."</div>
+          <p style="font-size:0.88rem;color:var(--text-medium);line-height:1.6;">Former superhero. Chose family over the cape when Max was born. Has been carrying the family — and her secret — alone ever since. Her mid-film reveal as Velocity recontextualizes the entire story. B-theme: <em>"Being strong doesn't mean doing it alone."</em></p>
+          <div style="margin-top:0.75rem;">
+            <span class="profile-tag">Deep navy Velocity suit</span>
+            <span class="profile-tag">Speed-line accents</span>
+            <span class="profile-tag">Scratched left boot</span>
+            <span class="profile-tag">No cape — by choice</span>
+          </div>
+        </div>
+      </div>
+      <table class="profile-arc-table">
+        <tr><th>Beat</th><th>What Happens</th></tr>
+        <tr><td>Act One</td><td>Calm, competent, subtly too capable. Deadpan humor. Catches things she shouldn't. The audience doesn't notice yet.</td></tr>
+        <tr><td>Rising Load</td><td>Rob's double life means Claire carries more. Drives Max. Handles the house. The invisible load becomes visible.</td></tr>
+        <tr><td>The Crack</td><td>Sharp where she used to be warm. A flash of frustration she immediately buries.</td></tr>
+        <tr><td>Confrontation</td><td>"You're trying to save everyone except the people in this house." Then: "I know what you're trying to do. <em>I've done it.</em>"</td></tr>
+        <tr><td>The Reveal (~65 min)</td><td>Volt attacks the neighborhood. Claire moves like someone who's done this before. "I was Velocity before you were Rocket Rob."</td></tr>
+        <tr><td>Resolution</td><td>They fight as a team. She no longer carries it alone. Rob sees her. They stand together. Equal.</td></tr>
+      </table>
+      <div class="key-lines">
+        <div class="key-line">"Did the city survive?" — deadpan, Act One</div>
+        <div class="key-line">"Max doesn't need a perfect hero. He needs his dad."</div>
+        <div class="key-line">"I was Velocity before you were Rocket Rob."</div>
+        <div class="key-line">"Because I chose something harder." — why she stopped</div>
+        <div class="key-line">"Still saving the world?" — final scene</div>
+      </div>
+    </div>
+
+    <!-- MAX -->
+    <div class="profile-detail">
+      <div class="profile-detail-header">
+        <img class="profile-detail-img" src="assets/max-character-sheet.png" alt="Max Carter">
+        <div class="profile-detail-meta">
+          <div class="profile-card-role">The Power Source — Tested by Silence</div>
+          <h2>Max Carter</h2>
+          <div class="profile-detail-subtitle">"Every city has a hero… but OUR city has the greatest hero EVER."</div>
+          <p style="font-size:0.88rem;color:var(--text-medium);line-height:1.6;">8 years old. Max doesn't just feel the story — he powers it. His belief in Rob is the mechanism by which an ordinary dad becomes Rocket Rob. When that belief goes silent mid-film, the hero diminishes. When it returns as a <em>choice</em> at the end — it's stronger than it ever was.</p>
+          <div style="margin-top:0.75rem;">
+            <span class="profile-tag">Hockey helmet (always)</span>
+            <span class="profile-tag">Dish-towel cape</span>
+            <span class="profile-tag">Canadian hockey jersey</span>
+            <span class="profile-tag">Sky blue eyes like Rob</span>
+          </div>
+        </div>
+      </div>
+      <table class="profile-arc-table">
+        <tr><th>Story Moment</th><th>Emotional Age</th><th>What It Means</th></tr>
+        <tr><td>Opening — narrating everything</td><td><em>7-ish</em></td><td>Pure, effortless imaginative belief. Costs nothing.</td></tr>
+        <tr><td>Act One montage</td><td><em>7–8</em></td><td>The bond at its most alive.</td></tr>
+        <tr><td>Narration fading</td><td><em>8</em></td><td>Starting to feel the weight of waiting.</td></tr>
+        <tr><td>The Silence</td><td><em>8 going on 9</em></td><td>Quietly outgrown — not by choice yet. By accumulation.</td></tr>
+        <tr><td>Hockey game bench</td><td><em>9 (emotional)</em></td><td>"It's okay… my dad saves bigger things." He's protecting his dad even after the belief went quiet.</td></tr>
+        <tr><td>Final narration</td><td><em>Fully 9</em></td><td>Old enough to know exactly what he's choosing. That's the weight.</td></tr>
+      </table>
+      <div class="key-lines">
+        <div class="key-line">"Rocket Rob repairs the Hydro Blaster!" — fixing the sink</div>
+        <div class="key-line">"It's okay… my dad saves bigger things."</div>
+        <div class="key-line">"You said that yesterday." — The Silence begins</div>
+        <div class="key-line">"No. You're better. You're my dad."</div>
+        <div class="key-line">"Every hero needs a sidekick." — handing Rob his drawing</div>
+      </div>
+    </div>
+
+    <!-- VICTOR VOLT -->
+    <div class="profile-detail" style="border-left: 4px solid #3FA9F5;">
+      <div class="profile-detail-header">
+        <img class="profile-detail-img" src="assets/victor-volt.png" alt="Victor Volt">
+        <div class="profile-detail-meta">
+          <div class="profile-card-role" style="color:#3FA9F5;">The False Answer — Rob's Dark Mirror</div>
+          <h2>Victor Volt</h2>
+          <div class="profile-detail-subtitle">"Heroes don't tuck kids into bed. They change the world."</div>
+          <p style="font-size:0.88rem;color:var(--text-medium);line-height:1.6;">Late 30s–40s. Rob's former colleague at Titan Sports Tech. Originally Canadian — erased every trace of it to pursue power. Chose greatness. Lost everything personal. Now needs Rob to fail to justify his own sacrifice. He's not evil — he's in pain. And that's what makes him a Pixar villain.</p>
+          <div style="margin-top:0.75rem;">
+            <span class="profile-tag">Electric blue suit</span>
+            <span class="profile-tag">Clock/time motifs</span>
+            <span class="profile-tag">Metallic cape</span>
+            <span class="profile-tag">The creased photo</span>
+          </div>
+        </div>
+      </div>
+      <div class="trait-grid">
+        <div class="trait-item"><div class="trait-label">Real Tragedy</div><div class="trait-value">He could have been Rob. The photo he carries proves he knows it.</div></div>
+        <div class="trait-item"><div class="trait-label">Philosophy</div><div class="trait-value">"You can save the world or be there for your family. Not both."</div></div>
+        <div class="trait-item"><div class="trait-label">Canadian Origin</div><div class="trait-value">Same origin as Rob. Opposite choices. He erased where he came from.</div></div>
+        <div class="trait-item"><div class="trait-label">Exit</div><div class="trait-value">Not defeated by force. Defeated by being proven wrong. The door is left open for redemption.</div></div>
+      </div>
+      <div class="key-lines">
+        <div class="key-line">"You could have been great, Rob. Instead you chose bedtime stories and hockey games."</div>
+        <div class="key-line">"Family makes you weak."</div>
+        <div class="key-line">"You were always the better one of us." — his final line</div>
+      </div>
+    </div>
+
+    <!-- SUPPORTING CAST: 2-up -->
+    <div class="profile-grid">
+      <div class="profile-card">
+        <img class="profile-card-img" src="assets/cat-sidekick-concept.png" alt="The Cat Sidekick">
+        <div class="profile-card-body">
+          <div class="profile-card-role">Comic Relief with Loyalty</div>
+          <div class="profile-card-name">[Name TBD] — The Sidekick Cat</div>
+          <div class="profile-card-quote">"..." (just stares at you until you figure it out)</div>
+          <p>Orange tabby. Wears a repurposed Titan Sports Tech harness with gadgets he probably knocked off Rob's desk. Decided Rob was his human long before Rob agreed. Takes everything Rob says as direct instruction. Shows up every time without being asked. Doesn't need to learn love — he already has it. Expresses it sideways.</p>
+          <div>
+            <span class="profile-tag">Name: Patch? Radar? Spark?</span>
+            <span class="profile-tag">Harness screen shows data</span>
+            <span class="profile-tag">Accidental hero</span>
+          </div>
+        </div>
+      </div>
+      <div class="profile-card">
+        <img class="profile-card-img" src="assets/coach-hank-character-concept.png" alt="Coach Hank — character concept">
+        <div class="profile-card-body">
+          <div class="profile-card-role">Tough Love Mentor</div>
+          <div class="profile-card-name">Coach Hank</div>
+          <div class="profile-card-quote">"Kid… hockey and parenting are the same thing."</div>
+          <p>Max's hockey coach. Gruff exterior, warm interior. Speaks in sports metaphors that accidentally apply to life. Respects effort over talent. Reinforces the theme in the most grounded, real-world way possible — no superpowers, no philosophy. Just a man who's seen a lot of kids and knows what matters.</p>
+          <div class="key-lines" style="margin-top:1rem;">
+            <div class="key-line">"The best players aren't the ones who score. They're the ones who show up every practice."</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Coach Hank rink moment -->
+    <div class="scene-featured" style="margin-top:2rem;">
+      <img src="assets/coach-hank-max-rink-moment.png" alt="Coach Hank and Max — rink side mentor moment">
+      <div class="scene-featured-caption">Coach Hank and Max at the rink: the film's grounded emotional mentor in his natural environment. No superpowers. No philosophy. Just a man who's seen a lot of kids, kneeling down to one more.</div>
+    </div>
+
+    <!-- Shadow Dad callout -->
+    <div class="constellation-theme" style="margin-top:2.5rem;background:rgba(110,112,115,0.08);border-radius:16px;overflow:hidden;border:1px solid rgba(110,112,115,0.2);text-align:left;">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;">
+        <img src="assets/shadow-dad-concept.png" alt="Shadow Dad concept" style="width:100%;height:220px;object-fit:cover;object-position:center top;display:block;">
+        <img src="assets/shadow-dad-scene-still.png" alt="Shadow Dad scene — Rob confronting his fear" style="width:100%;height:220px;object-fit:cover;object-position:center top;display:block;">
+      </div>
+      <div style="padding:1.5rem 2rem;">
+        <div style="font-size:0.68rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--slate-gray);margin-bottom:0.5rem;">Act Two Psychological Villain</div>
+        <div style="font-size:1.1rem;font-weight:800;color:var(--deep-navy);margin-bottom:0.5rem;">The Shadow Dad</div>
+        <p style="font-size:0.88rem;color:var(--text-medium);line-height:1.6;margin:0;">Rob's internal antagonist — a vision of himself if he chose work over family. Polished. Successful. Empty. Appears only in Rob's mind during his lowest point. Says one line: <em>"They'll understand when they're older."</em> Rob realizes: They won't. This isn't a physical fight — it's a Pixar internal moment, like the Bing Bong sequence in Inside Out.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════ -->
+<!-- THREE-ACT STRUCTURE                      -->
+<!-- ═══════════════════════════════════════ -->
+
+<section id="structure" style="background:var(--light-gray);">
+  <div class="container">
+    <div class="section-label">The Blueprint</div>
+    <h2 class="section-title">Three-Act Structure</h2>
+    <p class="section-subtitle">~90 minutes. Two parallel arcs colliding at a single turning point. The film's philosophical commitment: belief is the superpower, and it always belonged to the eight-year-old.</p>
+
+    <div class="act-block">
+      <div class="act-header act-header--one">
+        <div>
+          <div class="act-number">Act One</div>
+          <div class="act-title">"The Greatest Hero Ever"</div>
+        </div>
+        <div class="act-runtime">~25 minutes</div>
+      </div>
+      <div class="act-body">
+        <div class="beat-row">
+          <div class="beat-time">0:00</div>
+          <div class="beat-content">
+            <div class="beat-title">Opening Sequence</div>
+            <div class="beat-desc">Epic Rocket Rob vs. Victor Volt battle narrated by Max — SMASH CUT to Rob under the kitchen sink. "Rocket Rob repairs the Hydro Blaster." Claire walks in: "Did the city survive?" Rob: "Barely." He alone says: "Greatest hero ever." He doesn't quite believe it.</div>
+            <div class="beat-emotional">Hook: Was any of that real?</div>
+          </div>
+        </div>
+        <div class="beat-row">
+          <div class="beat-time">5:00</div>
+          <div class="beat-content">
+            <div class="beat-title">Establishing the World</div>
+            <div class="beat-desc">Rob's morning routine. Titan Sports Tech cubicle (Team Canada mug, Max's drawings). Max at school and hockey practice — Coach Hank introduced. Claire at home: too competent, too fast, catches things she shouldn't. Seeds are planted. The audience doesn't notice yet.</div>
+            <div class="beat-emotional">Grounding: make the audience love this family</div>
+          </div>
+        </div>
+        <div class="beat-row">
+          <div class="beat-time">12:00</div>
+          <div class="beat-content">
+            <div class="beat-title">"Little Hero Moments" Montage</div>
+            <div class="beat-desc">Silent. Piano and guitar. Tiny Max in a dish-towel cape. First time on skates. Late nights at Titan. Max's drawings accumulating on the fridge. Time passing. Belief staying the same. Ends: Max hands Rob a drawing — "Every hero needs a sidekick."</div>
+            <div class="beat-emotional">Bond the audience to this family before the story begins</div>
+          </div>
+        </div>
+        <div class="beat-row">
+          <div class="beat-time">18:00</div>
+          <div class="beat-content">
+            <div class="beat-title">Inciting Incident — Victor Volt</div>
+            <div class="beat-desc">Volt unveils his "revolutionary energy technology." Rob confronts him privately. Volt: "Family makes you weak." Rob refuses. Volt activates the machine. The city grid flickers. This isn't innovation — it's control.</div>
+            <div class="beat-emotional">Act One turning point: Rob must choose to act</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="act-block">
+      <div class="act-header act-header--two">
+        <div>
+          <div class="act-number">Act Two</div>
+          <div class="act-title">"The Cost"</div>
+        </div>
+        <div class="act-runtime">~45 minutes</div>
+      </div>
+      <div class="act-body">
+        <div class="beat-row">
+          <div class="beat-time">25:00</div>
+          <div class="beat-content">
+            <div class="beat-title">The Double Life</div>
+            <div class="beat-desc">Every save costs family time. Misses practice pickup. Gets home late. Max is asleep. Claire covers, drives Max, holds the house. The invisible load grows. Max's narration gets quieter — less excited, more routine.</div>
+            <div class="beat-emotional">Rising tension: "not both" starts feeling true</div>
+          </div>
+        </div>
+        <div class="beat-row">
+          <div class="beat-time">40:00</div>
+          <div class="beat-content">
+            <div class="beat-title">The Silence Begins</div>
+            <div class="beat-desc">Rob misses bedtime. Max doesn't narrate. Just: "You said that yesterday." Max rolls over. No "Rocket Rob completes his mission." Just a dad in a doorway. Over the next scenes: action figures in a drawer, dish-towel cape stays folded. The magic track goes silent. Rob becomes measurably less effective. He hesitates. Makes mistakes. The power source is offline.</div>
+            <div class="beat-emotional">The gut punch: the audience feels the hero diminish</div>
+          </div>
+        </div>
+        <div class="beat-row">
+          <div class="beat-time">50:00</div>
+          <div class="beat-content">
+            <div class="beat-title">The Hockey Game</div>
+            <div class="beat-desc">Championship day. Rob promises. Volt escalates — citywide blackouts. Rob saves the city. Misses the game. Max sits on the bench, watches other dads cheer. "It's okay... my dad saves bigger things." Rob arrives late. Bruised. No cape. Max sees him. Two-tap signal. Max plays harder. Game ends. Max just hugs him. No words.</div>
+            <div class="beat-emotional">The scene that breaks parents</div>
+          </div>
+        </div>
+        <div class="beat-row">
+          <div class="beat-time">58:00</div>
+          <div class="beat-content">
+            <div class="beat-title">The Low Point</div>
+            <div class="beat-desc">Shadow Dad moment: Rob sees a version of himself — polished, successful, empty. "They'll understand when they're older." Rob realizes: They won't. Claire confronts Rob with honesty: "You're trying to save everyone except the people in this house... I know what you're trying to do. I've done it."</div>
+            <div class="beat-emotional">Darkest moment: Volt's philosophy feels true</div>
+          </div>
+        </div>
+        <div class="beat-row">
+          <div class="beat-time">65:00</div>
+          <div class="beat-content">
+            <div class="beat-title">The Velocity Reveal</div>
+            <div class="beat-desc">Volt attacks the Carter neighborhood. Claire moves like someone who's done this before. Gets Max safe. Reroutes power. Rob sees it — the knowing looks, the calm, the speed. "Claire... how did you—" She drops the mask: "I was Velocity before you were Rocket Rob." Why did she stop? "Because I chose something harder."</div>
+            <div class="beat-emotional">Recontextualizes the entire film — the audience has been watching two movies</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="act-block">
+      <div class="act-header act-header--three">
+        <div>
+          <div class="act-number">Act Three</div>
+          <div class="act-title">"What Makes a Hero"</div>
+        </div>
+        <div class="act-runtime">~20 minutes</div>
+      </div>
+      <div class="act-body">
+        <div class="beat-row">
+          <div class="beat-time">70:00</div>
+          <div class="beat-content">
+            <div class="beat-title">The Final Battle</div>
+            <div class="beat-desc">Volt's machine at full power atop Titan tower. Rob takes the sky. Claire — Velocity again — coordinates the ground, protects the arena where Max's rescheduled game is happening. They're a team for the first time. Rob finds Max's drawing in his belt buckle: "My Dad Saves The World." He understands. Max believed because Rob showed up — not because he saved the city.</div>
+            <div class="beat-emotional">Rob absorbs the machine. No dramatic explosion. Just the right choice.</div>
+          </div>
+        </div>
+        <div class="beat-row">
+          <div class="beat-time">78:00</div>
+          <div class="beat-content">
+            <div class="beat-title">Volt's Exit</div>
+            <div class="beat-desc">Volt, broken: "...Why?" Rob: "Because someone's waiting for me at home." Volt: "You were always the better one of us." He reaches into his coat. A creased photo — we never see what's in it. He looks at it. Puts it back. Steps off the roof into the dark. Defeated not by force — by being proved wrong.</div>
+            <div class="beat-emotional">The photo tells the audience everything: he could have been Rob</div>
+          </div>
+        </div>
+        <div class="beat-row">
+          <div class="beat-time">82:00</div>
+          <div class="beat-content">
+            <div class="beat-title">The Resolution</div>
+            <div class="beat-desc">Rob arrives at the arena. Late. Bruised. There. The two-tap signal. The hug. Max's bedroom: "Did you save the world?" "Something like that." "I knew it." The kitchen: Claire in the doorway. "Still saving the world?" "Just the parts that matter." They stand together. Quiet.</div>
+            <div class="beat-emotional">Theme delivered in a kitchen, not a speech</div>
+          </div>
+        </div>
+        <div class="beat-row">
+          <div class="beat-time">88:00</div>
+          <div class="beat-content">
+            <div class="beat-title">The Final Image</div>
+            <div class="beat-desc">Pull back through the kitchen window. House. Street. Hockey net. Neighborhood. City. Stars. Max's voice returns — not dramatic, not excited. Soft. Sleepy. Certain: "Every city has a hero. Ours has the best one." This isn't a kid playing pretend. This is an eight-year-old who chose to believe.</div>
+            <div class="beat-emotional">The Pixar moment. A chosen belief is more powerful than a given one — because it costs something.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════ -->
+<!-- WORLD-BUILDING                           -->
+<!-- ═══════════════════════════════════════ -->
+
+<section id="world">
+  <div class="container">
+    <div class="section-label">The Setting</div>
+    <h2 class="section-title">World-Building</h2>
+    <p class="section-subtitle">Fully fictional, unnamed — the Pixar way. The city is anywhere. Rob Carter is unmistakably Canadian. That distinction is the point.</p>
+
+    <div class="scene-featured" style="margin-bottom:2rem;">
+      <img src="assets/titan-sports-tech-cubicle.png" alt="Rob's cubicle at Titan Sports Tech — Team Canada mug, Max's drawings, family photo">
+      <div class="scene-featured-caption">Rob's cubicle at Titan Sports Tech: the warmest corner of the coldest building in the city. Team Canada mug. Max's drawings. Family photo. Everything that matters, contained in one small space surrounded by sports-tech screens.</div>
+    </div>
+
+    <div class="world-grid">
+      <div class="world-card">
+        <div class="world-card-name">Carter Family Home</div>
+        <div class="world-card-desc">Warm two-story house. Slightly cluttered yard. Hockey net in the driveway. Inside: Max's drawings covering the fridge, scattered gear, a cozy kitchen that's the emotional center of the entire film. Everything real and important happens here.</div>
+      </div>
+      <div class="world-card">
+        <div class="world-card-name">Titan Sports Tech Tower</div>
+        <div class="world-card-desc">Sleek glass tower. Cool blues and silver. Corporate clean. The biggest building in the city — and the coldest. Rob's cubicle is the warmest corner: Team Canada mug, family photos, Max's drawings pinned to the wall. Visual contrast to the Carter home.</div>
+      </div>
+      <div class="world-card">
+        <div class="world-card-name">Max's Hockey Arena</div>
+        <div class="world-card-desc">Small. Warm. Community-scale. Bright ice, colorful banners, wooden bleachers. Smells like cold air and hot chocolate. Where Rob and Max connect. The championship game here is the film's emotional climax.</div>
+      </div>
+      <div class="world-card">
+        <div class="world-card-name">The Signature Bridge</div>
+        <div class="world-card-desc">A distinctive arched bridge connecting two parts of the city. Lit warmly at night. Appears in all skyline shots. Recognizable in silhouette. The visual anchor of the world's establishing shots.</div>
+      </div>
+      <div class="world-card">
+        <div class="world-card-name">The Park</div>
+        <div class="world-card-desc">Green space with a view of the skyline. Where Rob and Max have played since Max was small. A bench with their names scratched into it. Used for quiet emotional scenes and montage.</div>
+      </div>
+      <div class="world-card" style="border-top-color:var(--deep-navy);">
+        <div class="world-card-name">The Two Worlds</div>
+        <div class="world-card-desc">Reality: warm grounded palette, soft lighting, everyday textures. Max's imagination: more saturated, bigger compositions, physics are suggestions. The film deliberately leaves ambiguity about where one ends and the other begins. When The Silence falls, the imagination world disappears — and the film changes feeling entirely.</div>
+      </div>
+    </div>
+
+    <div class="theme-summary" style="margin-top:2rem;">
+      <h3>Rob's Canadian Identity in the World</h3>
+      <p>The city is neutral and universal. Rob's Canadian-ness is personal, specific, and his. He brought it with him — the maple leaf pin on his lapel, the Team Canada mug, the hockey jersey he wears on weekends, the reflexive "sorry" to strangers, the particular dry humor of a man who grew up in a country that underplays everything. Victor Volt had the same origin and erased it. Rob held on. That contrast is the theme made visible.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════ -->
+<!-- SERIES EXPANSION                         -->
+<!-- ═══════════════════════════════════════ -->
+
+<section id="expansion" style="background:var(--light-gray);">
+  <div class="container">
+    <div class="section-label">Beyond the Film</div>
+    <h2 class="section-title">Series Expansion</h2>
+    <p class="section-subtitle">The film establishes the world. The companion series deepens it — episodic stories, new villains, and the family's life after the world knows who they are. Max's narration is restored. Claire operates openly as Velocity. Every episode runs two parallel tracks: a real family problem and a superhero crisis that mirrors it.</p>
+
+    <!-- Series Villains -->
+    <div class="scene-featured" style="margin-bottom:1.5rem;">
+      <img src="assets/dr-overtime-and-deadline.png" alt="Dr. Overtime and The Deadline — Max's imagination villains">
+      <div class="scene-featured-caption">Dr. Overtime and The Deadline — Max's imaginative explanation for why Dad can't come home. In the film, they appear in the imagination track during Acts One and Two. When The Silence falls, they vanish too. In the series, they graduate from imagination to real episodic antagonists.</div>
+    </div>
+
+    <div class="profile-grid" style="margin-bottom:2.5rem;">
+      <div class="profile-card">
+        <div class="profile-card-body">
+          <div class="profile-card-role">Max's Imagination Villain → Series Antagonist</div>
+          <div class="profile-card-name">Dr. Overtime</div>
+          <div class="profile-card-quote">"There's always more work to be done."</div>
+          <p>The time wizard who keeps dads at work. Too many clocks, too many watches, a fussy dramatic cape. He represents the endless grind — the feeling there's never enough time. An 8-year-old invented him from hearing adults say "I have to work overtime." In the film, he appears in Max's imagination overlay. In the series, he manipulates time itself.</p>
+        </div>
+      </div>
+      <div class="profile-card">
+        <div class="profile-card-body">
+          <div class="profile-card-role">Max's Imagination Villain → Series Antagonist</div>
+          <div class="profile-card-name">The Deadline</div>
+          <div class="profile-card-quote">"Your time is UP."</div>
+          <p>The task monster that traps dads in work. A swirl of notifications, ASAP notes, hourglasses, and relentless buzzing. Annoying-dangerous, not cool-dangerous. He embodies modern work overload — the thing that steals time from family. Kids laugh at his chaos. Parents feel personally attacked. In the film, he's Max's fantasy. In the series, he's real.</p>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="font-size:1.15rem;font-weight:800;color:var(--deep-navy);margin-bottom:1.25rem;">Season 1 — 10 Episodes</h3>
+    <div class="episode-list">
+      <div class="episode-card">
+        <div class="episode-number">Episode 1</div>
+        <div class="episode-title">"The Greatest Hero Ever"</div>
+        <div class="episode-row"><div class="episode-row-label">Real Problem</div><div class="episode-row-text">Rob is late to pick up Max from hockey practice — again.</div></div>
+        <div class="episode-row"><div class="episode-row-label">Hero Problem</div><div class="episode-row-text">Victor Volt announces his energy tech. Rob's pushback triggers Volt's descent.</div></div>
+        <div class="episode-theme">Theme: Setting the stakes — can Rob be the dad Max believes in?</div>
+      </div>
+      <div class="episode-card">
+        <div class="episode-number">Episode 2</div>
+        <div class="episode-title">"The Missing Hockey Stick"</div>
+        <div class="episode-row"><div class="episode-row-label">Real Problem</div><div class="episode-row-text">Max's lucky stick disappears before a big game. He can't play without it.</div></div>
+        <div class="episode-row"><div class="episode-row-label">Hero Problem</div><div class="episode-row-text">Rocket Rob hunts it through increasingly absurd obstacles — the lost-and-found is a labyrinth, the neighbor's garage is a villain's lair.</div></div>
+        <div class="episode-theme">Theme: The magic was always in you, not the stick.</div>
+      </div>
+      <div class="episode-card">
+        <div class="episode-number">Episode 3</div>
+        <div class="episode-title">"Laundry Day Apocalypse"</div>
+        <div class="episode-row"><div class="episode-row-label">Real Problem</div><div class="episode-row-text">Claire is away. Rob is in charge of the house. Everything spirals.</div></div>
+        <div class="episode-row"><div class="episode-row-label">Hero Problem</div><div class="episode-row-text">The washing machine becomes a portal. Socks become sentient. The dryer is a black hole.</div></div>
+        <div class="episode-theme">Theme: Rob finally sees what Claire does every single day.</div>
+      </div>
+      <div class="episode-card">
+        <div class="episode-number">Episode 4</div>
+        <div class="episode-title">"The Science Fair Disaster"</div>
+        <div class="episode-row"><div class="episode-row-label">Real Problem</div><div class="episode-row-text">Max's volcano won't work. The fair is tomorrow.</div></div>
+        <div class="episode-row"><div class="episode-row-label">Hero Problem</div><div class="episode-row-text">The Homework Hydra attacks — every solution creates two new problems.</div></div>
+        <div class="episode-theme">Theme: The process matters more than the result.</div>
+      </div>
+      <div class="episode-card">
+        <div class="episode-number">Episode 5</div>
+        <div class="episode-title">"The Homework Monster"</div>
+        <div class="episode-row"><div class="episode-row-label">Real Problem</div><div class="episode-row-text">Max has a huge assignment. He can't focus. Rob can't help without doing it for him.</div></div>
+        <div class="episode-row"><div class="episode-row-label">Hero Problem</div><div class="episode-row-text">The Homework Hydra returns. The cat sidekick keeps accidentally solving the wrong problem at exactly the right moment.</div></div>
+        <div class="episode-theme">Theme: Let them struggle. That's how they grow.</div>
+      </div>
+      <div class="episode-card">
+        <div class="episode-number">Episode 6</div>
+        <div class="episode-title">"Dad vs. Bedtime"</div>
+        <div class="episode-row"><div class="episode-row-label">Real Problem</div><div class="episode-row-text">Max refuses to sleep. Every excuse in the book.</div></div>
+        <div class="episode-row"><div class="episode-row-label">Hero Problem</div><div class="episode-row-text">Each delay opens a mini-adventure. The one more question leads to a confrontation with Shadow Dad.</div></div>
+        <div class="episode-theme">Theme: Even bedtime is a kind of heroism.</div>
+      </div>
+      <div class="episode-card">
+        <div class="episode-number">Episode 7</div>
+        <div class="episode-title">"Coach Crusher"</div>
+        <div class="episode-row"><div class="episode-row-label">Real Problem</div><div class="episode-row-text">Max faces a hyper-competitive squad. Crusher's philosophy starts to infect Max.</div></div>
+        <div class="episode-row"><div class="episode-row-label">Hero Problem</div><div class="episode-row-text">Rob must intervene without becoming the overbearing sports dad.</div></div>
+        <div class="episode-theme">Theme: What are we teaching kids when we teach them to win?</div>
+      </div>
+      <div class="episode-card">
+        <div class="episode-number">Episode 8</div>
+        <div class="episode-title">"The Deadline"</div>
+        <div class="episode-row"><div class="episode-row-label">Real Problem</div><div class="episode-row-text">An impossible work deadline at Titan. Rob is pulling late nights. Max notices.</div></div>
+        <div class="episode-row"><div class="episode-row-label">Hero Problem</div><div class="episode-row-text">The Deadline villain manifests from Rob's work stress — emails and notifications forming a chaos monster that won't let him leave.</div></div>
+        <div class="episode-theme">Theme: Work expands to fill the time you give it. The only way to beat it is to choose to leave.</div>
+      </div>
+      <div class="episode-card episode-card--gold">
+        <div class="episode-number" style="color:var(--warm-gold);">Episode 9 — The Quiet One</div>
+        <div class="episode-title">"Little Hero Moments"</div>
+        <div class="episode-row"><div class="episode-row-label">Real Problem</div><div class="episode-row-text">Max finds old home videos. He sees baby-Max with Rob. He asks about when he was little.</div></div>
+        <div class="episode-row"><div class="episode-row-label">Hero Problem</div><div class="episode-row-text">Minimal. This is the quiet episode. The montage lives here.</div></div>
+        <div class="episode-theme">Theme: Time is the real villain. The only way to fight it is to be present right now. <em>This is the episode that makes parents cry.</em></div>
+      </div>
+      <div class="episode-card episode-card--navy">
+        <div class="episode-number" style="color:var(--deep-navy);">Episode 10 — Season Finale</div>
+        <div class="episode-title">"What Makes a Hero"</div>
+        <div class="episode-row"><div class="episode-row-label">Real Problem</div><div class="episode-row-text">Max's championship hockey game. Rob promises to be there. Volt launches his full attack.</div></div>
+        <div class="episode-row"><div class="episode-row-label">Hero Problem</div><div class="episode-row-text">Volt's machine threatens the entire city. The game is in two hours. Then one. Then it starts.</div></div>
+        <div class="episode-theme">Theme: Being a hero isn't about saving the world. It's about showing up for the people who believe in you.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════ -->
+<!-- CHILDREN'S BOOK                          -->
+<!-- ═══════════════════════════════════════ -->
+
+<section id="book" class="book-section">
+  <div class="container">
+    <div class="section-label">IP Expansion — Path to Market</div>
+    <h2 class="section-title">The Children's Book Universe</h2>
+    <p class="section-subtitle">The "Little Hero Moments" concept that powers the film is a picture book engine. Each book is one ordinary dad moment — transformed by a kid's imagination. Simple formula. Infinite stories. Proven emotional formula.</p>
+
+    <div class="scene-featured" style="margin-bottom:2rem;">
+      <img src="assets/my-dad-saves-the-world-book-cover.png" alt="My Dad Saves the World — picture book cover mockup">
+      <div class="scene-featured-caption">"My Dad Saves the World" — the thematic centerpiece of the Rocket Rob picture book universe. A standalone that works without the film, and makes everyone want to see the film.</div>
+    </div>
+
+    <div class="book-hero-card">
+      <div>
+        <h3>Little Hero Moments</h3>
+        <p>A picture book series for ages 4–7. Each book takes one ordinary moment — fixing the sink, making breakfast, driving to school — and shows two versions: the mundane reality, and Max's imagination transforming it into an epic. Simple. Repeatable. The formula that makes parents cry and kids cheer is a picture book formula at its core.</p>
+        <p style="margin-top:0.75rem;">This isn't a movie tie-in. It's IP development that works independently — and makes the film's eventual pitch to studios significantly stronger because the property is already in the world.</p>
+      </div>
+      <div class="book-stats">
+        <div class="book-stat"><div class="book-stat-value">32</div><div class="book-stat-label">Pages per book</div></div>
+        <div class="book-stat"><div class="book-stat-value">4–7</div><div class="book-stat-label">Target age</div></div>
+        <div class="book-stat"><div class="book-stat-value">∞</div><div class="book-stat-label">Possible stories</div></div>
+        <div class="book-stat"><div class="book-stat-value">2</div><div class="book-stat-label">Spreads per moment</div></div>
+        <div class="book-stat"><div class="book-stat-value">Both</div><div class="book-stat-label">Audiences crying</div></div>
+        <div class="book-stat"><div class="book-stat-value">1st</div><div class="book-stat-label">Path to market</div></div>
+      </div>
+    </div>
+
+    <h3 style="font-size:1.15rem;font-weight:800;color:var(--deep-navy);margin-bottom:1.25rem;">The Book Series — Volume by Volume</h3>
+    <div class="book-series-grid">
+      <div class="book-card">
+        <div class="book-card-number">Book 1</div>
+        <div class="book-card-title">Rocket Rob and the Hydro Blaster</div>
+        <div class="book-card-hook">Rob is under the kitchen sink. Water sprays everywhere. Max watches from the doorway in his hockey helmet. And whispers: <em>"Rocket Rob… repairs the Hydro Blaster."</em></div>
+        <div class="book-card-spread">Left spread: man fixing a leaking pipe. Right spread: superhero battling a water monster in an underground city. Same scene. Two truths.</div>
+      </div>
+      <div class="book-card">
+        <div class="book-card-number">Book 2</div>
+        <div class="book-card-title">Rocket Rob and the Rocket Launch</div>
+        <div class="book-card-hook">Every morning, Dad drives Max to school. But Max knows the truth: it's not a car. It's a rocket. And the school isn't a school. It's Mission HQ.</div>
+        <div class="book-card-spread">Left spread: minivan in morning traffic. Right spread: rocket ship breaking atmosphere. Same trip. Same dad. Same kid who believes.</div>
+      </div>
+      <div class="book-card">
+        <div class="book-card-number">Book 3</div>
+        <div class="book-card-title">Rocket Rob and the Hunger Monster</div>
+        <div class="book-card-hook">Dad is making breakfast. The eggs are a disaster. The toast burned. But Max knows what's really happening: <em>"The hero fuels up for his next mission."</em></div>
+        <div class="book-card-spread">Left spread: smoky kitchen, lopsided pancake. Right spread: supersonic refuel station in the stratosphere. Same terrible breakfast. Epic in the right hands.</div>
+      </div>
+      <div class="book-card">
+        <div class="book-card-number">Book 4</div>
+        <div class="book-card-title">Rocket Rob and the Bedtime Battle</div>
+        <div class="book-card-hook">Every night, Dad reads Max a story. And every night, the story becomes real. The book is a portal. The bedroom is a command center. And Dad's voice is the bravest thing Max has ever heard.</div>
+        <div class="book-card-spread">Left spread: tired dad reading in lamplight. Right spread: two heroes on a quest through the story's world. Together.</div>
+      </div>
+      <div class="book-card">
+        <div class="book-card-number">Book 5</div>
+        <div class="book-card-title">Rocket Rob and the Big Game</div>
+        <div class="book-card-hook">Max has a hockey game today. Dad promised to be there. And when Max skates onto the ice, he knows one thing: the stands are full — but only one face matters.</div>
+        <div class="book-card-spread">A quieter book. The heroism is the showing up. Both spreads hold the same warmth — just one has a cape.</div>
+      </div>
+      <div class="book-card" style="border-left: 3px solid var(--warm-gold); background: #FFFBF0;">
+        <div class="book-card-number" style="color:var(--warm-gold);">Standalone / Seasonal</div>
+        <div class="book-card-title">My Dad Saves The World</div>
+        <div class="book-card-hook">Max's drawing from the belt buckle — told as a picture book. What Max draws. What Dad does. Why both are the same thing. The film's core thesis in 32 pages for a four-year-old.</div>
+        <div class="book-card-spread">The thematic centerpiece of the IP. The book you give a dad on Father's Day. The one that sits on the nightstand next to the bed.</div>
+      </div>
+    </div>
+
+    <h3 style="font-size:1.15rem;font-weight:800;color:var(--deep-navy);margin:2rem 0 0.5rem;">Why the Picture Book Path Works</h3>
+    <div class="book-why-grid">
+      <div class="book-why-card">
+        <div class="book-why-icon">📚</div>
+        <div class="book-why-title">Proven Formula</div>
+        <div class="book-why-body">The dual-spread format (mundane + imagined) is a picture book classic. <em>The Dot, Dragons Love Tacos, The Pout-Pout Fish</em> — simple repeatable structure with big emotional payoff. This fits that shelf.</div>
+      </div>
+      <div class="book-why-card">
+        <div class="book-why-icon">🎬</div>
+        <div class="book-why-title">IP Proof-of-Concept</div>
+        <div class="book-why-body">A published book series is a studio pitch with an audience already attached. It proves the concept works before a single frame of animation is financed.</div>
+      </div>
+      <div class="book-why-card">
+        <div class="book-why-icon">📅</div>
+        <div class="book-why-title">Father's Day Machine</div>
+        <div class="book-why-body"><em>My Dad Saves The World</em> is a Father's Day gift that sells itself. The retail hook is built in. That's a publisher's dream for a debut property.</div>
+      </div>
+      <div class="book-why-card">
+        <div class="book-why-icon">🍁</div>
+        <div class="book-why-title">Canadian Publishing Path</div>
+        <div class="book-why-body">Canadian publishers (Kids Can Press, Annick Press, Orca Book) actively seek Canadian-authored family content with strong visual identity. The art is already done.</div>
+      </div>
+      <div class="book-why-card">
+        <div class="book-why-icon">👨‍👧</div>
+        <div class="book-why-title">Both Audiences, One Book</div>
+        <div class="book-why-body">Kids read the adventure. Parents feel the quiet truth underneath. Every great picture book does this. <em>Love You Forever. The Giving Tree. Guess How Much I Love You.</em> This belongs in that conversation.</div>
+      </div>
+      <div class="book-why-card">
+        <div class="book-why-icon">🖼️</div>
+        <div class="book-why-title">The Art Is Ready</div>
+        <div class="book-why-body">The visual style is defined. The characters are designed. The tone is locked. Most picture book pitches start from nothing. This one starts with a fully realized Pixar-style world already built.</div>
+      </div>
+    </div>
+
+    <div class="theme-summary">
+      <h3>The Bottom Line on the Book</h3>
+      <p>The film asks: "What if a child's belief is a superpower?" The picture book answers it in 32 pages, for a four-year-old, at bedtime, with their dad reading it to them. That's not a tie-in product. That's the thesis of the entire property — delivered in its purest form. You don't need the movie to exist for the book to work. But the book makes everyone want the movie.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer>
+  <div class="footer-title">Rocket Rob</div>
+  <p>Every city has a hero. Ours has the best one.</p>
+  <p style="margin-top:1rem;font-size:0.82rem;opacity:0.5;"><a href="index.html" style="color:inherit;">← Pitch Deck</a> &nbsp;|&nbsp; <a href="scripts.html" style="color:inherit;">Scripts →</a></p>
+</footer>
+
+<script>
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 50);
+  });
+</script>
+
+</body>
+</html>
