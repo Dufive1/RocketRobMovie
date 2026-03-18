@@ -1,14 +1,14 @@
-# Claire Carter (Velocity) — Character Profile
+# Claire Lavoie (Vela) — Character Profile
 
-> "I was Velocity before you were Rocket Rob."
+> "I was Vela before you were Rocket Rob."
 
 ## Real Name
 
-Claire Carter
+Claire Lavoie
 
 ## Hero Name
 
-Velocity (retired before the film begins; revealed mid-film)
+Vela (retired before the film begins; revealed mid-film)
 
 ## Age
 
@@ -26,7 +26,7 @@ Claire's arc runs parallel to Rob's. While he learns that showing up IS heroism,
 
 ## The Core Truth
 
-Claire was Velocity. She chose to step back when Max was born. She's never told Rob. She's carried the family — and her secret — alone for years, believing that's what strong people do.
+Claire was Vela. She chose to step back when Max was born. She's never told Rob. She's carried the family — and her secret — alone for years, believing that's what strong people do.
 
 ## Desire
 
@@ -51,9 +51,9 @@ Reactive perfectionism. She takes too much on herself, which isolates her emotio
 | Rising load | Act Two | Rob's double life means Claire carries more. She covers for him. Drives Max. Handles the house. The invisible load becomes visible. |
 | The crack | Mid-Act Two | She's tired. Sharp where she used to be warm. A flash of frustration she immediately buries. |
 | Confrontation | Act Two low point | She tells Rob: "You're trying to save everyone except the people in this house." Then: "I know what you're trying to do. I've done it." |
-| The Reveal | ~65 min | Volt attacks the Carter neighborhood. Claire moves like someone who's done this before. Rob sees it. "Claire... how did you—" She drops the mask: "I was Velocity before you were Rocket Rob." |
+| The Reveal | ~65 min | Volt attacks the Lavoie neighborhood. Claire moves like someone who's done this before. Rob sees it. "Claire... how did you—" She drops the mask: "I was Vela before you were Rocket Rob." |
 | The Choice Explained | ~67 min | Rob asks why she stopped. Claire, looking toward Max's room: "Because I chose something harder." |
-| Active Hero | Act Three | Claire is Velocity again. Not because she wants to be, but because the family needs her to be. She coordinates the ground while Rob takes the sky. |
+| Active Hero | Act Three | Claire is Vela again. Not because she wants to be, but because the family needs her to be. She coordinates the ground while Rob takes the sky. |
 | Resolution | Finale | She's no longer carrying everything alone. Rob sees her. They stand in the kitchen together. Equal. Present. |
 
 ## Personality
@@ -73,7 +73,7 @@ Reactive perfectionism. She takes too much on herself, which isolates her emotio
 - Subtly knowing (when Rob describes something "weird" — she recognizes it)
 - Carrying invisible weight (the look of someone managing everything while appearing fine)
 - The crack (a flash of frustration or exhaustion she buries immediately)
-- Fierce clarity (the Velocity reveal — the mask drops)
+- Fierce clarity (the Vela reveal — the mask drops)
 - Relief (the resolution — she doesn't have to carry it alone anymore)
 
 ## Appearance
@@ -91,14 +91,14 @@ Reactive perfectionism. She takes too much on herself, which isolates her emotio
 - Red shoes — small pop of personality
 - Clean, modern, approachable
 
-### Velocity Suit (Revealed Act Two)
+### Vela Suit (Revealed Act Two)
 
 The suit has been in a box in the back of Claire's closet for years. She hasn't worn it since before Max was born. It still fits. But it shouldn't look pristine — there's a scuff on the left boot, a faded patch on the shoulder, a scratch across the visor she never fixed. This tells the audience it's real. It has history. It was *used*.
 
 | Element | Description | Hex | Purpose |
 |---------|-------------|-----|---------|
 | Base suit | Deep navy body, fitted and streamlined | `#1A2744` | Speed silhouette — no drag, no excess. Contrasts Rob's boxy gray suit. |
-| Chest panel | Rocket Red V-shaped accent across the chest | `#E01B1B` | Ties to the family palette. The "V" is for Velocity, but also mirrors Rob's RR shape inverted. |
+| Chest panel | Rocket Red V-shaped accent across the chest | `#E01B1B` | Ties to the family palette. The "V" is for Vela, but also mirrors Rob's RR shape inverted. |
 | Boots | Knee-high, deep navy with red speed-line trim | `#1A2744` / `#E01B1B` | Streamlined for movement. Left boot has a visible scuff — old battle damage. |
 | Gloves | Fingerless, navy with gold grip pads | `#1A2744` / `#D79B2E` | Practical. She fights with her hands. The gold links to the family palette without copying Rob's gold trim. |
 | Visor | Translucent sky blue, half-face | `#3FA9F5` | Protects the eyes during speed runs. Scratch across the left side she never repaired. Pushes up onto her forehead when she's talking — a character gesture. |
@@ -108,7 +108,7 @@ The suit has been in a box in the back of Claire's closet for years. She hasn't 
 
 **Design contrast with Rocket Rob:**
 
-| | Rocket Rob | Velocity |
+| | Rocket Rob | Vela |
 |--|-----------|----------|
 | Silhouette | Broad, caped, corporate hero | Sleek, capeless, runner's frame |
 | Movement style | Power-based — strength, absorption, endurance | Speed-based — precision, evasion, momentum |
@@ -116,7 +116,7 @@ The suit has been in a box in the back of Claire's closet for years. She hasn't 
 | Design philosophy | Imagination made visible (the cape is a dish towel made epic) | Experience made functional (the suit is a tool, not a costume) |
 | Wear | Scratched and dented from tonight's fight | Scuffed and faded from years in storage |
 
-**Animation notes**: Velocity moves differently from Rocket Rob. Where Rob plants his feet and absorbs force, Claire is fluid — low center of gravity, weight shifting constantly, always in motion even when standing still. Her idle pose should have a slight lean, like she's about to sprint. When she runs, the speed-line accents on the suit blur. When she stops, there's a half-second delay where the air catches up to her — a small visual signature.
+**Animation notes**: Vela moves differently from Rocket Rob. Where Rob plants his feet and absorbs force, Claire is fluid — low center of gravity, weight shifting constantly, always in motion even when standing still. Her idle pose should have a slight lean, like she's about to sprint. When she runs, the speed-line accents on the suit blur. When she stops, there's a half-second delay where the air catches up to her — a small visual signature.
 
 ## Body Proportions
 
@@ -126,7 +126,7 @@ The suit has been in a box in the back of Claire's closet for years. She hasn't 
 - Expressive hands and face
 - In motion: noticeably fluid and fast, even in everyday scenes (the seeds)
 
-## The Velocity Reveal — Detailed
+## The Vela Reveal — Detailed
 
 This is the film's second-act turning point. It recontextualizes everything:
 
@@ -165,7 +165,7 @@ She's the only character in the constellation who has *already answered* the fil
 
 > "I know what you're trying to do. I've done it."
 
-> "I was Velocity before you were Rocket Rob."
+> "I was Vela before you were Rocket Rob."
 
 > "Because I chose something harder." (why she stopped)
 
@@ -173,8 +173,8 @@ She's the only character in the constellation who has *already answered* the fil
 
 ## Art Reference
 
-- Dual identity split (everyday + Velocity): `art/characters/claire-velocity-split.png` ← **primary character reference**
-- Velocity suit (full): `art/characters/claire-velocity.png`
+- Dual identity split (everyday + Vela): `art/characters/claire-velocity-split.png` ← **primary character reference**
+- Vela suit (full): `art/characters/claire-velocity.png`
 - Family scene: `art/characters/carter-family-scene.png` ← tone anchor
 - Family portrait: `art/characters/carter-family.png`
 - In cast lineup: `art/keyart/cast-lineup.png`

@@ -1,10 +1,10 @@
-# Victor Volt — Character Profile
+# Victor Watt — Character Profile
 
 > "Heroes don't tuck kids into bed. They change the world."
 
 ## Real Name
 
-Victor Volt (born Victor Vautour)
+Victor Watt (born Victor Vautour)
 
 ## Role
 
@@ -106,7 +106,7 @@ Same origin. Opposite choices. The Canadian identity that Rob wears quietly (map
 
 Victor carries a creased photograph in his coat. We never see what's in it. He never shows anyone. But in his final moment on the rooftop — after his machine is destroyed, after Rob proves him wrong — he reaches for it. Looks at it. Puts it back.
 
-The audience understands without being told: Victor Volt still has something personal he never threw away. A family photo. A friend. A version of himself he abandoned. He could have been Rob. That's the devastation.
+The audience understands without being told: Victor Watt still has something personal he never threw away. A family photo. A friend. A version of himself he abandoned. He could have been Rob. That's the devastation.
 
 This detail makes Volt a Pixar villain, not a cartoon villain. His loneliness is his punishment. And the photo is proof that he knows it.
 

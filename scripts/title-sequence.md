@@ -74,9 +74,9 @@ Story begins.
 
 **Length**: 45 seconds maximum. Pixar title cards are tight. Every frame earns its place.
 
-**No villains**: The title sequence is about the *world and family*, not the conflict. Volt, Shadow Dad, and the storm belong in the story. The title card should feel like sunrise, not foreshadowing.
+**No villains**: The title sequence is about the *world and family*, not the conflict. Watt, Shadow Dad, and the storm belong in the story. The title card should feel like sunrise, not foreshadowing.
 
-**Claire as herself**: Claire appears as a mom, not as Velocity. But the animation plants tiny seeds — the too-fast catch, the choice not to catch Rob. On first viewing, nobody notices. On rewatch after the Velocity reveal, it's everywhere.
+**Claire as herself**: Claire appears as a mom, not as Vela. But the animation plants tiny seeds — the too-fast catch, the choice not to catch Rob. On first viewing, nobody notices. On rewatch after the Vela reveal, it's everywhere.
 
 **The Blur**: The pancake/citizen flip (or the hockey-bag/launch) is the signature visual motif of the film. It should appear here first, establishing the language the entire movie will use: reality and imagination are the same shot, separated by belief.
 

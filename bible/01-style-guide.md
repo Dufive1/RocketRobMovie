@@ -112,7 +112,7 @@ All in-universe signage, titles, and text should use rounded, friendly typefaces
 
 | Location | Visual Character |
 |----------|-----------------|
-| Carter Family Home | Warm, lived-in, slightly cluttered with hockey gear and drawings |
+| Lavoie Family Home | Warm, lived-in, slightly cluttered with hockey gear and drawings |
 | Titan Sports Tech | Sleek glass tower, cool blues, corporate clean |
 | Max's Hockey Arena | Small, warm, community-scale, bright ice |
 | The City Skyline | Signature bridge, Titan tower as anchor, rounded rooftops |
@@ -147,16 +147,16 @@ These three images define the visual tone and style of the entire film. All new 
 | Rob turnaround (playful) | `art/characters/rocket-rob/rob-turnaround-playful.png` | Playful imagination variant — embellished costume |
 | Rob hero pose | `art/characters/rocket-rob/rob-hero-pose.png` | Confident heroic stance |
 | Rob street pose | `art/characters/rocket-rob/rob-street-pose.png` | Hero stance in city environment |
-| Claire / Velocity (split) | `art/characters/claire-velocity-split.png` | Everyday Claire + Velocity side by side — **primary Claire reference** |
-| Claire / Velocity (full suit) | `art/characters/claire-velocity.png` | Claire in full Velocity suit |
+| Claire / Vela (split) | `art/characters/claire-velocity-split.png` | Everyday Claire + Vela side by side — **primary Claire reference** |
+| Claire / Vela (full suit) | `art/characters/claire-velocity.png` | Claire in full Vela suit |
 | Max character sheet | `art/characters/max-character-sheet.png` | Max at age 8 — 4 poses, hockey gear, dish-towel cape |
 | Cat sidekick | `art/characters/cat-sidekick-concept.png` | [Name TBD] — orange tabby, RR harness, 4 poses |
 | Coach Hank | `art/characters/coach-hank-character-concept.png` | Character concept — rinkside gruff mentor |
 | Shadow Dad | `art/characters/shadow-dad-concept.png` | Psychological concept — Rob's fear made visible |
-| Carter family scene | `art/characters/carter-family-scene.png` | Rob, Claire, and Max — kitchen scene |
-| Carter family portrait | `art/characters/carter-family.png` | Rob, Claire, and Max together |
-| Victor Volt | `art/characters/villains/victor-volt.png` | Main antagonist character concept |
-| Imagination villains | `art/characters/villains/dr-overtime-and-deadline.png` | Dr. Overtime and The Deadline — Max's imagination (film) + series antagonists |
+| Lavoie family scene | `art/characters/carter-family-scene.png` | Rob, Claire, and Max — kitchen scene |
+| Lavoie family portrait | `art/characters/carter-family.png` | Rob, Claire, and Max together |
+| Victor Watt | `art/characters/villains/victor-volt.png` | Main antagonist character concept |
+| Imagination villains | `art/characters/villains/dr-overtime-and-deadline.png` | Dr. Overtime and The Countdown — Max's imagination (film) + series antagonists |
 
 ### Key Art & Posters
 
@@ -179,7 +179,7 @@ These three images define the visual tone and style of the entire film. All new 
 | Little Hero Moments | `art/keyart/little-hero-moments.png` | Montage scene still |
 | Hockey game | `art/keyart/hockey-game.png` | Empty seat, bench moment — the scene that breaks parents |
 | Title sequence | `art/keyart/title-sequence.png` | City at dawn — title card still |
-| Final battle | `art/keyart/final-battle.png` | Claire as Velocity, Volt's reckoning — climax scene |
+| Final battle | `art/keyart/final-battle.png` | Claire as Vela, Volt's reckoning — climax scene |
 
 ### Books
 

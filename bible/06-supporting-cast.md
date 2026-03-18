@@ -89,17 +89,17 @@ The following villains are designed for different contexts:
 |---------|-----------|------|
 | **The Shadow Dad** | Movie (Act Two) | Brief psychological beat during Rob's low point |
 | **Dr. Overtime** | Movie (imagination track) + Series | Max's imagined reason Dad can't come home; becomes real episodic antagonist |
-| **The Deadline** | Movie (imagination track) + Series | Max's imagined reason Dad is stuck at work; becomes real episodic antagonist |
+| **The Countdown** | Movie (imagination track) + Series | Max's imagined reason Dad is stuck at work; becomes real episodic antagonist |
 | **Coach Crusher** | Series expansion | Episodic antagonist |
 | **The Homework Hydra** | Series expansion | Episodic antagonist |
 
 The Shadow Dad works in the movie because he's internal — a vision, not a physical fight.
 
-**Dr. Overtime and The Deadline** have a dual role: in the film, they exist within Max's imagination overlay — his kid-logic explanation for why Dad isn't home. When Max narrates "Rocket Rob is on a secret mission!", these are the enemies Rob is "fighting." They appear in the colorful, exaggerated imagination track during Acts One and Two. When The Silence falls mid-film and the imagination track goes dark, these villains vanish too — making the loss of Max's world even more devastating. In the companion series, they graduate from imagination to real episodic antagonists.
+**Dr. Overtime and The Countdown** have a dual role: in the film, they exist within Max's imagination overlay — his kid-logic explanation for why Dad isn't home. When Max narrates "Rocket Rob is on a secret mission!", these are the enemies Rob is "fighting." They appear in the colorful, exaggerated imagination track during Acts One and Two. When The Silence falls mid-film and the imagination track goes dark, these villains vanish too — making the loss of Max's world even more devastating. In the companion series, they graduate from imagination to real episodic antagonists.
 
 The remaining villains each represent a different parenting fear and are designed for the episodic format of the companion series (see `bible/11-series-expansion.md`).
 
-### The Deadline
+### The Countdown
 
 > "Your time is UP."
 

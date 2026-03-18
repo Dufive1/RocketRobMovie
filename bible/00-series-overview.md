@@ -24,7 +24,7 @@ When that belief goes silent mid-film, the power goes with it. Rob becomes less 
 
 **"Being strong doesn't mean doing it alone."**
 
-Claire Carter has been carrying the family — and a secret hero identity — alone for years. Her arc runs parallel to Rob's: while he learns that showing up is heroism, she learns that letting others in makes you stronger. These two arcs intersect at the Velocity reveal, the film's second-act turning point.
+Claire Lavoie has been carrying the family — and a secret hero identity — alone for years. Her arc runs parallel to Rob's: while he learns that showing up is heroism, she learns that letting others in makes you stronger. These two arcs intersect at the Vela reveal, the film's second-act turning point.
 
 ## Sub-Themes
 

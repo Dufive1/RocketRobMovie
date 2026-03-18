@@ -30,9 +30,9 @@ Lightning CRACKS across the sky. Electric blue. Violent.
 
 ### EXT. ROOFTOP — CONTINUOUS
 
-VICTOR VOLT hovers above the city, arms outstretched. Electricity arcs between his fingers. His tech suit pulses with blue energy. Below him, a massive machine hums — cables running into the city grid.
+VICTOR WATT hovers above the city, arms outstretched. Electricity arcs between his fingers. His tech suit pulses with blue energy. Below him, a massive machine hums — cables running into the city grid.
 
-                              VICTOR VOLT
+                              VICTOR WATT
                     This city deserves better than
                     ordinary.
 
@@ -47,7 +47,7 @@ ROCKET ROB bursts into view — cape flowing, mask bright, eyes blazing sky blue
                               MAX (V.O.)
                     He's faster than a slapshot...
 
-Rob weaves between buildings, closing on Volt.
+Rob weaves between buildings, closing on Watt.
 
                               MAX (V.O.)
                     ...stronger than a Zamboni...
@@ -59,15 +59,15 @@ Rob catches a falling chunk of debris and HURLS it aside.
 
 ### EXT. ROOFTOP — CONTINUOUS
 
-Rob lands on the roof opposite Volt. They face each other. The wind whips Rob's cape. Rain begins to fall.
+Rob lands on the roof opposite Watt. They face each other. The wind whips Rob's cape. Rain begins to fall.
 
-                              VICTOR VOLT
+                              VICTOR WATT
                     You could have been great, Rob.
 
                               ROCKET ROB
                     I'm working on it.
 
-Rob CHARGES. Volt FIRES a massive bolt of electricity. Rob dodges — barely — slides across the wet rooftop, and LEAPS.
+Rob CHARGES. Watt FIRES a massive bolt of electricity. Rob dodges — barely — slides across the wet rooftop, and LEAPS.
 
 EPIC SLOW MOTION: Rob sailing through the air, cape spread, fist forward, rain suspended around him —
 
@@ -87,13 +87,13 @@ BEAT.
 
 ### SMASH CUT TO:
 
-### INT. CARTER KITCHEN — MORNING
+### INT. LAVOIE KITCHEN — MORNING
 
 SILENCE.
 
 Then: the sound of water SPRAYING.
 
-ROB CARTER — no mask, no cape, wearing a wrinkled dress shirt with the sleeves rolled up — is on his back under the kitchen sink. Water sprays him in the face.
+ROB LAVOIE — no mask, no cape, wearing a wrinkled dress shirt with the sleeves rolled up — is on his back under the kitchen sink. Water sprays him in the face.
 
                               ROB
                     Ow. Ow ow ow.

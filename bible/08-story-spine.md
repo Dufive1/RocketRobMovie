@@ -20,7 +20,7 @@ Rob didn't become a hero and then earn Max's belief. Max's belief is what made R
 
 ## Once upon a time…
 
-Rob Carter was an ordinary dad who worked a demanding job at Titan Sports Tech, rushing between meetings, emails, and deadlines while trying his best to be present for his son Max.
+Rob Lavoie was an ordinary dad who worked a demanding job at Titan Sports Tech, rushing between meetings, emails, and deadlines while trying his best to be present for his son Max.
 
 But in Max's eyes, Rob wasn't ordinary.
 
@@ -44,7 +44,7 @@ Claire carried the invisible load — the pickups, the dinners, the bedtimes, th
 
 ## One day…
 
-Rob's former colleague Victor Volt unveils a revolutionary energy technology that could power the entire city.
+Rob's former colleague Victor Watt unveils a revolutionary energy technology that could power the entire city.
 
 But Volt has a darker plan. He believes the world needs great heroes who sacrifice everything — including family — to change it.
 
@@ -84,11 +84,11 @@ Claire confronts Rob — not with anger, but with honesty: "You're trying to sav
 
 ## Until finally…
 
-Volt attacks the Carter neighborhood. The house goes dark. Claire moves like someone who's done this before. Gets Max safe. Reroutes power. Shields her family with speed that isn't normal.
+Volt attacks the Lavoie neighborhood. The house goes dark. Claire moves like someone who's done this before. Gets Max safe. Reroutes power. Shields her family with speed that isn't normal.
 
 Rob sees it. Claire drops the mask — not a superhero mask, but the one she's been wearing for years.
 
-"I was Velocity before you were Rocket Rob."
+"I was Vela before you were Rocket Rob."
 
 Rob understands two things: Claire sacrificed her hero identity for the family. And he's about to sacrifice the family for his. He's becoming what she walked away from.
 

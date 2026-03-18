@@ -6,7 +6,7 @@ Fully fictional, unnamed — the Pixar way.
 
 No real city, no geography to pin down. Just "the city," the way Metroville and Monstropolis work in their respective films. Specific enough to feel lived-in, universal enough that any kid anywhere recognizes it as *their* city.
 
-The city itself is neutral. The Canadian identity belongs to **Rob** — it's who he is, not where he lives. He brought it with him. It shows up in his home, his humor, his wardrobe, and the sport he passed down to Max. The city could be anywhere. Rob Carter is unmistakably Canadian. That distinction is the point.
+The city itself is neutral. The Canadian identity belongs to **Rob** — it's who he is, not where he lives. He brought it with him. It shows up in his home, his humor, his wardrobe, and the sport he passed down to Max. The city could be anywhere. Rob Lavoie is unmistakably Canadian. That distinction is the point.
 
 ### Visual Character
 
@@ -20,8 +20,8 @@ The city is a character in its own right. It should feel:
 
 | Location | Visual Identity | Narrative Purpose |
 |----------|----------------|-------------------|
-| **Carter Family Home** | Warm two-story house, slightly cluttered yard, hockey net in the driveway. Inside: drawings on the fridge, scattered hockey gear, a cozy kitchen. | The emotional center. Home base. Where the real story happens. |
-| **Titan Sports Tech Tower** | Sleek glass tower rising above the skyline. Cool blues and silver. Corporate clean. The biggest building in the city. | Rob's workplace. Source of tech, stress, and Victor Volt's ambition. Visual contrast to the warm Carter home. |
+| **Lavoie Family Home** | Warm two-story house, slightly cluttered yard, hockey net in the driveway. Inside: drawings on the fridge, scattered hockey gear, a cozy kitchen. | The emotional center. Home base. Where the real story happens. |
+| **Titan Sports Tech Tower** | Sleek glass tower rising above the skyline. Cool blues and silver. Corporate clean. The biggest building in the city. | Rob's workplace. Source of tech, stress, and Victor Watt's ambition. Visual contrast to the warm Lavoie home. |
 | **Max's Hockey Arena** | Small, warm, community-scale rink. Bright ice, colorful banners, wooden bleachers. Smells like cold air and hot chocolate. | Where Rob and Max connect. The championship game here is the emotional climax. |
 | **The Signature Bridge** | A distinctive arched bridge connecting two parts of the city. Lit warmly at night. Appears in skyline shots. | Visual anchor for establishing shots. Recognizable in silhouette. |
 | **The Park** | Green space with a view of the skyline. Where Rob and Max have played since Max was small. A bench with their names scratched into it. | Quiet emotional scenes. The montage location. |
@@ -55,11 +55,11 @@ Titan Sports Tech develops advanced technology for athletic performance — moti
 - Glass and steel exterior
 - Clean, minimalist interiors
 - Screens and holograms everywhere
-- Cool blue-white lighting (contrasts the warm Carter home)
+- Cool blue-white lighting (contrasts the warm Lavoie home)
 - Conference rooms with skyline views
 
 ### Narrative Function
-Titan is where Rob's work-life tension lives. It's also Victor Volt's origin — he rose through Titan's ranks before breaking away. The technology Rob uses as Rocket Rob may have originated here.
+Titan is where Rob's work-life tension lives. It's also Victor Watt's origin — he rose through Titan's ranks before breaking away. The technology Rob uses as Rocket Rob may have originated here.
 
 ### Key Spaces Within Titan
 - **Rob's cubicle** — Messy. Team Canada mug. Family photos. Stacks of paper. A drawing from Max pinned to the wall.
@@ -83,7 +83,7 @@ In this city, hockey may or may not be the main sport. It doesn't matter. The wa
 
 The unnamed city gives the story universal reach. Rob's Canadian identity gives it a specific, warm, human texture. Both can be true at once. The city is anywhere. Rob is from somewhere. That somewhere shaped him — and that shaping is visible in everything he does.
 
-### Victor Volt Contrast
+### Victor Watt Contrast
 
 Both Rob and Victor are originally Canadian. Victor erased every trace of where he came from to pursue corporate ambition. Rob held onto his roots — the jersey, the accent, the humor, the apologies. Same origin, opposite choices. The Canadian identity Rob carries quietly (maple leaf pin, hockey jersey at home) is something Victor deliberately abandoned. It makes their conflict personal and thematic, not just physical.
 

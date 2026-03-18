@@ -1,6 +1,6 @@
 # Rocket Rob — Series Expansion
 
-> The following episode concepts expand the Rocket Rob world beyond the feature film. The movie establishes the characters, theme, and emotional core. The companion series deepens the world, introduces new villains, and explores the family's life after the events of the film — with Max's narration restored, Claire operating openly as Velocity, and Rob balancing heroism with fatherhood in a world that now knows who he is.
+> The following episode concepts expand the Rocket Rob world beyond the feature film. The movie establishes the characters, theme, and emotional core. The companion series deepens the world, introduces new villains, and explores the family's life after the events of the film — with Max's narration restored, Claire operating openly as Vela, and Rob balancing heroism with fatherhood in a world that now knows who he is.
 
 ## Series Format
 
@@ -20,7 +20,7 @@ The audience gradually stops being sure which track is "real."
 
 **The Real Problem**: Rob is late to pick up Max from hockey practice — again. He promises to make it to the championship game.
 
-**The Hero Problem**: Victor Volt announces his energy technology. When Rob pushes back on its safety, Volt begins his descent into villainy.
+**The Hero Problem**: Victor Watt announces his energy technology. When Rob pushes back on its safety, Volt begins his descent into villainy.
 
 **Theme**: Setting the stakes — can Rob be the dad Max believes in?
 
@@ -88,13 +88,13 @@ The audience gradually stops being sure which track is "real."
 
 ---
 
-### Episode 8: "The Deadline"
+### Episode 8: "The Countdown"
 
 **The Real Problem**: Rob has an impossible work deadline at Titan Sports. He's been pulling late nights. Max notices. Claire worries.
 
-**The Hero Problem**: The Deadline (villain) literally manifests from Rob's work stress — emails, notifications, buzzing phones forming a chaos monster that prevents Rob from leaving the office.
+**The Hero Problem**: The Countdown (villain) literally manifests from Rob's work stress — emails, notifications, buzzing phones forming a chaos monster that prevents Rob from leaving the office.
 
-**Theme**: Work will always expand to fill the time you give it. The only way to beat The Deadline is to choose to leave.
+**Theme**: Work will always expand to fill the time you give it. The only way to beat The Countdown is to choose to leave.
 
 ---
 
@@ -112,7 +112,7 @@ The audience gradually stops being sure which track is "real."
 
 ### Episode 10: "What Makes a Hero" (Season Finale)
 
-**The Real Problem**: Max's championship hockey game is today. Rob promises to be there. Victor Volt launches his full attack on the city.
+**The Real Problem**: Max's championship hockey game is today. Rob promises to be there. Victor Watt launches his full attack on the city.
 
 **The Hero Problem**: Volt's power machine threatens the entire city grid. Rob must stop him. But the game is in two hours. Then one. Then it's started.
 
@@ -143,7 +143,7 @@ Across the season, the episodes build toward:
 
 1. Rob becoming more comfortable as Rocket Rob
 2. Max slowly beginning to see the line between imagination and reality
-3. Victor Volt escalating from philosophical rival to genuine threat
+3. Victor Watt escalating from philosophical rival to genuine threat
 4. The question of whether Rocket Rob is real growing more ambiguous
 5. Claire's hidden depth becoming harder to ignore
 6. The championship game as the emotional finish line

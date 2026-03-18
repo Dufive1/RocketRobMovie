@@ -16,7 +16,7 @@ MUSIC BEGINS — gentle piano, single notes.
 
 ---
 
-### INT. CARTER LIVING ROOM — DAY (YEARS AGO)
+### INT. LAVOIE LIVING ROOM — DAY (YEARS AGO)
 
 CLOSE ON: Rob's hands tying a dish towel into a cape around LITTLE MAX (age 3-4). Tiny, wobbly, enormous eyes.
 
@@ -116,7 +116,7 @@ The MUSIC DEEPENS. More instruments join.
 
 ---
 
-### INT. CARTER KITCHEN — DAY (PRESENT)
+### INT. LAVOIE KITCHEN — DAY (PRESENT)
 
 Max (current age, 8) walks up to Rob, who's pouring coffee.
 

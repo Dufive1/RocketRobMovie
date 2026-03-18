@@ -1,10 +1,10 @@
-# Max Carter — Character Profile
+# Max Lavoie — Character Profile
 
 > "Every city has a hero… but OUR city has the greatest hero EVER."
 
 ## Real Name
 
-Max Carter
+Max Lavoie
 
 ## Age
 

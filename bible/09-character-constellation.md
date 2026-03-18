@@ -13,7 +13,7 @@ Every character either supports, challenges, or distorts this belief. When they 
 ## The Constellation
 
 ```
-                    Victor Volt
+                    Victor Watt
                "Power > Family"
                (The False Answer)
 
@@ -63,15 +63,15 @@ Everything pushes Rob toward his final realization — but the power to reach it
 
 **Belief at end**: Same words. Different weight. Max's final narration — "Every city has a hero. Ours has the best one." — is not a kid playing pretend. It's a child who sat in the silence and chose to believe anyway. The power comes back on — but different, because a choice to believe is more powerful than naive faith. It costs something. And that cost makes it real. This is the most heroic act in the film.
 
-### Claire (Velocity) — The Grounding Force (With Her Own Arc)
+### Claire (Vela) — The Grounding Force (With Her Own Arc)
 
 **Belief**: "Great heroes protect what matters most."
 
-**Flaw**: She believes she has to protect it alone. She was Velocity. She chose family. She carries that choice — and the invisible load of everything Rob doesn't see — in silence.
+**Flaw**: She believes she has to protect it alone. She was Vela. She chose family. She carries that choice — and the invisible load of everything Rob doesn't see — in silence.
 
-**Arc**: From carrying everything alone to letting Rob (and the audience) see her. The Velocity reveal at the second-act turning point recontextualizes the entire film. Her B-theme — "Being strong doesn't mean doing it alone" — resolves when she and Rob fight as a team in Act Three, and stand together in the kitchen at the end.
+**Arc**: From carrying everything alone to letting Rob (and the audience) see her. The Vela reveal at the second-act turning point recontextualizes the entire film. Her B-theme — "Being strong doesn't mean doing it alone" — resolves when she and Rob fight as a team in Act Three, and stand together in the kitchen at the end.
 
-### Victor Volt — The Opposite Philosophy
+### Victor Watt — The Opposite Philosophy
 
 **Belief**: "Greatness requires sacrifice — especially family."
 
@@ -113,7 +113,7 @@ Every major scene involves at least two constellation positions in tension:
 | Hockey game | Rob + Max + Coach Hank | Showing up vs. saving the world |
 | Shadow Dad moment | Rob + Shadow Dad | Who Rob fears becoming |
 | Claire confronts Rob | Rob + Claire | "I know what you're trying to do. I've done it." |
-| Velocity reveal | Claire (center) | Recontextualizes everything |
+| Vela reveal | Claire (center) | Recontextualizes everything |
 | Final battle | Rob + Claire + Volt | Two arcs converge; both heroes, together |
 | The resolution | Rob + Max + Claire | Theme resolved through love; narration returns |
 

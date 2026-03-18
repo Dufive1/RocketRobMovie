@@ -11,11 +11,11 @@ The film runs two parallel character arcs that intersect at the climax:
 - **Rob's A-Arc**: "Can an ordinary dad still be a hero?" He learns that showing up IS heroism.
 - **Claire's B-Arc**: "Being strong doesn't mean doing it alone." She learns that letting others in makes you stronger.
 
-These arcs collide at the Velocity reveal — the moment the audience realizes Claire was a hero first, and chose family over the cape.
+These arcs collide at the Vela reveal — the moment the audience realizes Claire was a hero first, and chose family over the cape.
 
 ## The Film's Philosophical Commitment
 
-**Belief is the superpower.** Max's imagination doesn't just color the story — it powers Rob's heroism. Every whisper of "Rocket Rob saves the day" was doing something real: giving an ordinary dad the courage to try. When the belief goes silent mid-film, the hero diminishes. When it returns at the end — not as faith, but as a *choice* — it's more powerful than it ever was. The most heroic act in this film isn't Rob absorbing the machine or Claire revealing she's Velocity. It's an eight-year-old choosing to believe in an imperfect dad.
+**Belief is the superpower.** Max's imagination doesn't just color the story — it powers Rob's heroism. Every whisper of "Rocket Rob saves the day" was doing something real: giving an ordinary dad the courage to try. When the belief goes silent mid-film, the hero diminishes. When it returns at the end — not as faith, but as a *choice* — it's more powerful than it ever was. The most heroic act in this film isn't Rob absorbing the machine or Claire revealing she's Vela. It's an eight-year-old choosing to believe in an imperfect dad.
 
 ## Story-Level Events
 
@@ -35,7 +35,7 @@ Two structural events shape the film beyond plot:
 
 Black screen. Max's voice, hushed and dramatic: "Every city has a hero... but OUR city has the greatest hero EVER."
 
-Epic superhero battle: Rocket Rob vs. Victor Volt over the city skyline. Action, lightning, saves, Max narrating the whole thing.
+Epic superhero battle: Rocket Rob vs. Victor Watt over the city skyline. Action, lightning, saves, Max narrating the whole thing.
 
 SMASH CUT to Rob on his back under the kitchen sink. Water everywhere. Max in the doorway in pajamas and a hockey helmet, whispering: "Rocket Rob repairs the Hydro Blaster."
 
@@ -55,7 +55,7 @@ Claire at home and work — capable, organized, subtly more competent than she l
 
 The cat sidekick introduced — an orange tabby who has claimed Rob as his human and wears a repurposed Titan Sports Tech harness (with gadgets he probably knocked off Rob's desk). Comic relief. Takes everything Rob says as direct instruction.
 
-Max's imagination track is in full force: when Rob is late from work, Max narrates why — and the audience sees his invented villains, Dr. Overtime and The Deadline, as the enemies keeping Rocket Rob from coming home. These imagination villains appear throughout Acts One and early Two as part of the colorful overlay. When The Silence falls, they disappear along with everything else Max created.
+Max's imagination track is in full force: when Rob is late from work, Max narrates why — and the audience sees his invented villains, Dr. Overtime and The Countdown, as the enemies keeping Rocket Rob from coming home. These imagination villains appear throughout Acts One and early Two as part of the colorful overlay. When The Silence falls, they disappear along with everything else Max created.
 
 ### The Montage (~12:00–18:00)
 
@@ -69,7 +69,7 @@ Final shot: Max hands Rob a drawing — Rocket Rob flying with a hockey stick. "
 
 ### Inciting Incident (~18:00–25:00)
 
-Victor Volt reappears. Former Titan colleague, now powerful and solo. Unveils his "revolutionary energy technology" at a public event. Rob attends. Something feels wrong about it.
+Victor Watt reappears. Former Titan colleague, now powerful and solo. Unveils his "revolutionary energy technology" at a public event. Rob attends. Something feels wrong about it.
 
 Rob confronts Volt privately. Volt's philosophy surfaces: "Family makes you weak." Rob refuses to support the project.
 
@@ -83,7 +83,7 @@ Volt activates the machine. The city grid flickers. Power surges. This isn't inn
 
 ### Rising Action — The Double Life (~25:00–40:00)
 
-Rob tries to be Rocket Rob AND Rob Carter. Every save costs family time.
+Rob tries to be Rocket Rob AND Rob Lavoie. Every save costs family time.
 
 - He stops a power surge downtown. Misses hockey practice pickup. Claire covers.
 - He dismantles one of Volt's relay stations. Gets home late. Max is already asleep.
@@ -163,9 +163,9 @@ Claire confronts Rob. Not with anger — with honesty:
 
 Beat. Rob doesn't understand. Yet.
 
-### The Velocity Reveal (~65:00–70:00)
+### The Vela Reveal (~65:00–70:00)
 
-Volt launches a targeted attack on the Carter neighborhood. Power fails. The house goes dark.
+Volt launches a targeted attack on the Lavoie neighborhood. Power fails. The house goes dark.
 
 Claire moves. Not like a worried mom. Like someone who's done this before.
 
@@ -179,7 +179,7 @@ Rob sees it. The knowing looks. The calm in crisis. The way she always seemed to
 Claire looks at him. The mask drops. Not a superhero mask. The other kind — the one she's been wearing for years.
 
                               CLAIRE
-                    I was Velocity before you were
+                    I was Vela before you were
                     Rocket Rob.
 
 The audience recontextualizes everything. Her calm. Her competence. Her knowing looks when Rob described his powers. She wasn't learning — she was remembering.
@@ -205,7 +205,7 @@ This is Claire's B-arc thesis: she chose family over the cape. And it was harder
 
 Massive storm. Volt's machine at full power atop Titan tower.
 
-But this time, Rob isn't alone. Claire is Velocity again — not because she wants to be, but because the family needs her to be.
+But this time, Rob isn't alone. Claire is Vela again — not because she wants to be, but because the family needs her to be.
 
 She coordinates the ground: evacuating civilians, protecting infrastructure, shielding the arena where Max's rescheduled game is happening. Rob takes the sky: heading for Volt's machine.
 
@@ -286,7 +286,7 @@ FADE TO BLACK.
 | The Silence | 40:00 | Max stops narrating | Emotional gut punch |
 | Hockey game | 50:00 | Missed game, the hug | The scene that breaks parents |
 | Low point | 58:00 | Shadow Dad, Volt's philosophy wins | Darkest moment |
-| Velocity reveal | 65:00 | Claire was a hero first | Recontextualizes everything |
+| Vela reveal | 65:00 | Claire was a hero first | Recontextualizes everything |
 | Final battle | 70:00 | Rob + Claire vs. Volt | Thematic climax |
 | Resolution | 82:00 | Arena, bedroom, kitchen | Emotional landing |
 | Final image | 88:00 | Max's narration returns | The Pixar moment |

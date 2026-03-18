@@ -60,7 +60,7 @@ HOLD on the sliver of hallway light across Max's bed.
 
 ## PART TWO: THE FADE
 
-### INT. CARTER KITCHEN — MORNING (NEXT DAY)
+### INT. LAVOIE KITCHEN — MORNING (NEXT DAY)
 
 Rob is at the counter making breakfast. Pancakes. He flips one — it goes sideways, lands half off the plate.
 
@@ -82,7 +82,7 @@ Max sits down. Eats. Doesn't look up.
 
 Rob stands at the counter. The pancake sits on the plate, half off, cooling.
 
-### EXT. CARTER DRIVEWAY — MORNING (CONTINUOUS)
+### EXT. LAVOIE DRIVEWAY — MORNING (CONTINUOUS)
 
 Rob drives Max to school. In Act One, this was a "rocket launch" — Max narrating the car blasting through the atmosphere, the street becoming a runway, the school becoming mission HQ.
 
@@ -131,7 +131,7 @@ The cape stays folded.
 
 *The following scenes mirror earlier moments from Act One — the same shots, the same framing, the same situations. But without the narration. Without the imagination overlay. The contrast should feel like someone turned the color down on a television. Not literally — the palette stays warm — but emotionally. Something essential has been withdrawn.*
 
-### INT. CARTER KITCHEN — EVENING
+### INT. LAVOIE KITCHEN — EVENING
 
 The sink is dripping. Again.
 
@@ -149,7 +149,7 @@ Just a man fixing a sink.
 
 Rob at his desk. Team Canada mug. Max's drawings pinned to the wall.
 
-He stares at his screen. An alert comes in — another grid anomaly. Volt's machine probing the city's infrastructure.
+He stares at his screen. An alert comes in — another grid anomaly. Watt's machine probing the city's infrastructure.
 
 In Act One, Rob would have straightened up, jaw set, eyes bright. The dad-logic hero seeing the mission clearly. Max's voice in his head: "Rocket Rob detects a disturbance!"
 
@@ -187,7 +187,7 @@ No one is watching. No one is narrating.
 
 ### EXT. CITY — NIGHT
 
-Another grid failure. Power out on the east side. Volt is probing again.
+Another grid failure. Power out on the east side. Watt is probing again.
 
 Rob is on the rooftop in the suit. Cape. Mask. Belt buckle.
 
