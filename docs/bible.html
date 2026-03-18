@@ -254,9 +254,30 @@
     @media (max-width: 768px) {
       .profile-detail-header { flex-direction: column; }
       .profile-detail-img { width: 100%; min-width: 0; height: 220px; }
+      .profile-grid { grid-template-columns: 1fr; }
       .book-hero-card { grid-template-columns: 1fr; }
+      .book-series-grid { grid-template-columns: 1fr; }
+      .book-why-grid { grid-template-columns: 1fr; }
+      .world-grid { grid-template-columns: 1fr; }
+      .episode-list { grid-template-columns: 1fr; }
+      .trait-grid { grid-template-columns: 1fr; }
       .act-header { flex-wrap: wrap; }
       .act-runtime { margin-left: 0; }
+      .act-body { padding: 1.25rem; }
+      .profile-detail { padding: 1.5rem; }
+      .bible-hero { padding: 5rem 1.5rem 3rem; }
+      .beat-row { flex-direction: column; gap: 0.25rem; }
+      .beat-time { min-width: unset; }
+      .book-stats { grid-template-columns: 1fr; }
+      .episode-row { flex-direction: column; gap: 0.15rem; }
+      .episode-row-label { min-width: unset; }
+    }
+    @media (max-width: 480px) {
+      .book-hero-card { padding: 1.5rem; }
+      .book-hero-card h3 { font-size: 1.2rem; }
+      .profile-card-img { height: 200px; }
+      .profile-arc-table { font-size: 0.78rem; }
+      .profile-arc-table th, .profile-arc-table td { padding: 0.4rem 0.5rem; }
     }
   </style>
 </head>
@@ -273,7 +294,10 @@
 <nav id="nav">
   <div class="nav-inner">
     <div class="nav-logo">ROCKET <span>ROB</span></div>
-    <ul class="nav-links">
+    <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
       <li><a href="#characters">Characters</a></li>
       <li><a href="#structure">Story Structure</a></li>
       <li><a href="#world">World</a></li>
@@ -928,6 +952,19 @@
   const nav = document.getElementById('nav');
   window.addEventListener('scroll', () => {
     nav.classList.toggle('scrolled', window.scrollY > 50);
+  });
+
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('nav-links');
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    navLinks.classList.toggle('open');
+  });
+  navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      hamburger.classList.remove('active');
+      navLinks.classList.remove('open');
+    });
   });
 </script>
 

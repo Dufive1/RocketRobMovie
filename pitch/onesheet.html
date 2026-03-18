@@ -197,14 +197,21 @@
     }
 
     @media screen and (max-width: 600px) {
+      body { padding: 1rem; }
+
       .header {
         flex-direction: column;
         text-align: center;
       }
 
       .header-poster {
-        width: 280px;
-        min-width: 280px;
+        width: 100%;
+        max-width: 320px;
+        min-width: unset;
+      }
+
+      .format-tags {
+        justify-content: center;
       }
 
       .two-col {
@@ -213,6 +220,10 @@
 
       .title {
         font-size: 2rem;
+      }
+
+      .section-title {
+        font-size: 0.85rem;
       }
     }
   </style>

@@ -12,7 +12,10 @@
 <nav id="nav">
   <div class="nav-inner">
     <div class="nav-logo">ROCKET <span>ROB</span></div>
-    <ul class="nav-links">
+    <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
       <li><a href="index.html">Pitch Deck</a></li>
       <li><a href="bible.html">Full Bible</a></li>
       <li><a href="#title-sequence">Title</a></li>
@@ -1092,6 +1095,19 @@
   const nav = document.getElementById('nav');
   window.addEventListener('scroll', () => {
     nav.classList.toggle('scrolled', window.scrollY > 20);
+  });
+
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('nav-links');
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    navLinks.classList.toggle('open');
+  });
+  navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      hamburger.classList.remove('active');
+      navLinks.classList.remove('open');
+    });
   });
 </script>
 

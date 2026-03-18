@@ -12,7 +12,10 @@
 <nav id="nav">
   <div class="nav-inner">
     <div class="nav-logo">ROCKET <span>ROB</span></div>
-    <ul class="nav-links">
+    <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
       <li><a href="#theme">Theme</a></li>
       <li><a href="#characters">Characters</a></li>
       <li><a href="#gallery">Gallery</a></li>
@@ -715,12 +718,12 @@
 </section>
 
 <!-- Poster Section -->
-<section id="poster" style="padding:5rem 2rem;background:var(--deep-navy);text-align:center;">
-  <div style="max-width:900px;margin:0 auto;">
-    <h2 style="font-size:0.8rem;text-transform:uppercase;letter-spacing:0.2em;color:var(--warm-gold);margin-bottom:0.5rem;">The Poster</h2>
-    <p style="font-size:1.5rem;color:var(--white);font-weight:300;margin-bottom:2.5rem;line-height:1.6;">Every hero needs someone who believes.</p>
-    <img src="assets/poster-master.png" alt="Rocket Rob — Master Movie Poster" style="width:100%;max-width:800px;border-radius:12px;box-shadow:0 20px 60px rgba(0,0,0,0.5);">
-    <p style="margin-top:2rem;font-size:1.1rem;color:rgba(255,255,255,0.6);font-style:italic;line-height:1.8;max-width:600px;margin-left:auto;margin-right:auto;">"Can an ordinary dad still be a hero?"<br>The cape is a dish towel. The rocket is a car. The superpower is belief.<br>And it was always Max's.</p>
+<section id="poster" class="poster-section">
+  <div class="poster-inner">
+    <h2 class="poster-label">The Poster</h2>
+    <p class="poster-tagline">Every hero needs someone who believes.</p>
+    <img src="assets/poster-master.png" alt="Rocket Rob — Master Movie Poster" class="poster-image">
+    <p class="poster-quote">"Can an ordinary dad still be a hero?"<br>The cape is a dish towel. The rocket is a car. The superpower is belief.<br>And it was always Max's.</p>
   </div>
 </section>
 
@@ -735,6 +738,19 @@
   const nav = document.getElementById('nav');
   window.addEventListener('scroll', () => {
     nav.classList.toggle('scrolled', window.scrollY > 20);
+  });
+
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('nav-links');
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    navLinks.classList.toggle('open');
+  });
+  navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      hamburger.classList.remove('active');
+      navLinks.classList.remove('open');
+    });
   });
 </script>
 
