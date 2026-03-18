@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rocket Rob — One Sheet</title>
+  <style>
+    @page {
+      size: letter;
+      margin: 0.5in;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+      color: #1A1A1A;
+      background: #fff;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      max-width: 8.5in;
+      margin: 0 auto;
+      padding: 0.5in;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 3px solid #E01B1B;
+    }
+
+    .header-poster {
+      width: 180px;
+      min-width: 180px;
+      border-radius: 8px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    }
+
+    .header-text {
+      flex: 1;
+    }
+
+    .title {
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: #E01B1B;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+      color: #6E7073;
+      margin-top: 0.25rem;
+      font-weight: 400;
+    }
+
+    .format-tags {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .tag {
+      background: #1A2744;
+      color: #fff;
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 0.25rem 0.6rem;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .logline {
+      font-size: 1rem;
+      font-style: italic;
+      color: #1A1A1A;
+      margin: 1.25rem 0;
+      padding: 0.75rem 1rem;
+      background: #FDF8F0;
+      border-left: 4px solid #D79B2E;
+      border-radius: 0 6px 6px 0;
+      line-height: 1.6;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .section-title {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #E01B1B;
+      margin-bottom: 0.5rem;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px solid #eee;
+    }
+
+    .characters {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.35rem;
+    }
+
+    .char {
+      font-size: 0.82rem;
+      line-height: 1.45;
+    }
+
+    .char strong {
+      color: #1A2744;
+    }
+
+    .theme-box {
+      background: #1A2744;
+      color: #fff;
+      padding: 0.75rem 1rem;
+      border-radius: 6px;
+      margin-bottom: 1.25rem;
+    }
+
+    .theme-box p {
+      font-size: 0.88rem;
+      line-height: 1.5;
+    }
+
+    .theme-box .theme-line {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #D79B2E;
+      margin-bottom: 0.25rem;
+    }
+
+    .comps {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .comp {
+      font-size: 0.82rem;
+      line-height: 1.4;
+    }
+
+    .comp strong {
+      color: #1A2744;
+    }
+
+    .differentiator {
+      font-size: 0.85rem;
+      line-height: 1.55;
+      margin-top: 0.5rem;
+      color: #4A4A4A;
+    }
+
+    .footer-bar {
+      margin-top: 1.25rem;
+      padding-top: 0.75rem;
+      border-top: 3px solid #E01B1B;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .contact {
+      font-size: 0.82rem;
+      color: #4A4A4A;
+    }
+
+    .contact strong {
+      color: #1A1A1A;
+    }
+
+    .copyright {
+      font-size: 0.7rem;
+      color: #8A8A8A;
+    }
+
+    @media print {
+      body {
+        padding: 0;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      .header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .header-poster {
+        width: 140px;
+        min-width: 140px;
+      }
+
+      .two-col {
+        grid-template-columns: 1fr;
+      }
+
+      .title {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <img src="assets/poster-movie.png" alt="Rocket Rob movie poster" class="header-poster">
+  <div class="header-text">
+    <div class="title">ROCKET ROB</div>
+    <div class="subtitle">An animated feature about a dad who might be a superhero — or might just be trying his best.</div>
+    <div class="format-tags">
+      <span class="tag">Animated Feature Film</span>
+      <span class="tag">~90 Minutes</span>
+      <span class="tag">Family / Superhero</span>
+      <span class="tag">Dual Audience</span>
+    </div>
+  </div>
+</div>
+
+<div class="logline">
+  A well-meaning Canadian dad discovers that the superhero his eight-year-old son imagined him to be might be more real than either of them expected — because a child's belief isn't just a reaction to who you are. It's the thing that makes you who you become.
+</div>
+
+<div class="two-col">
+  <div>
+    <div class="section-title">Characters</div>
+    <div class="characters">
+      <div class="char"><strong>Rob Lavoie / Rocket Rob</strong> — A Canadian dad at Titan Sports Tech who becomes the superhero his son imagines. Cape is a dish towel. Powers are fueled by his son's belief.</div>
+      <div class="char"><strong>Max Lavoie (8)</strong> — The power source. His imagination transforms his dad into Rocket Rob. When he stops believing, the hero — and the film — go quiet.</div>
+      <div class="char"><strong>Claire Lavoie / Vela</strong> — Rob's wife. A retired superhero who chose family over the cape. Her mid-film reveal recontextualizes everything. B-theme: strength isn't carrying it alone.</div>
+      <div class="char"><strong>Victor Watt</strong> — Rob's former colleague. Believes heroes must sacrifice everything. Rob's dark mirror — chose greatness over family and lost both.</div>
+    </div>
+  </div>
+
+  <div>
+    <div class="section-title">Comparable Properties</div>
+    <div class="comps">
+      <div class="comp"><strong>The Incredibles</strong> — Family superhero dynamics, secret identity, work-life tension</div>
+      <div class="comp"><strong>Inside Out</strong> — Emotional depth, dual-audience storytelling, a theme parents feel in their bones</div>
+      <div class="comp"><strong>Up</strong> — The montage. The quiet devastation. The love story underneath the adventure.</div>
+      <div class="comp"><strong>Toy Story</strong> — Being someone's hero, the fear of not being enough</div>
+    </div>
+
+    <div class="section-title" style="margin-top:1rem;">Structure</div>
+    <div class="comp">
+      <strong>Act One</strong> "The Greatest Hero Ever" (~25 min)<br>
+      <strong>Act Two</strong> "The Cost" (~45 min) — includes The Silence &amp; Vela reveal<br>
+      <strong>Act Three</strong> "What Makes a Hero" (~20 min)
+    </div>
+  </div>
+</div>
+
+<div class="theme-box">
+  <p class="theme-line">"Being a hero isn't about saving the world. It's about being there for the people who believe in you."</p>
+  <p>Every superhero film gives the hero powers and asks "can they handle it?" Rocket Rob gives a <em>child</em> the power — belief — and asks "what happens when it goes away?" The Incredibles starts with superheroes and finds the family story. Rocket Rob starts with a family and finds the superhero story.</p>
+</div>
+
+<div>
+  <div class="section-title">The Signature Moment — "The Silence"</div>
+  <p class="differentiator">Mid-film, after one too many missed bedtimes, Max quietly stops narrating his dad's life as a superhero story. He doesn't announce it. The action figures go in a drawer. The dish-towel cape stays folded. The film loses its imagination track — its color, its fun, its engine. Kids feel something is wrong. Parents feel grief. They recognize this. It's the moment your child stops playing pretend. And when Max's voice returns at the end — not as faith, but as a choice — that's the Pixar moment. Because a choice to believe costs something. And that's what makes it real.</p>
+</div>
+
+<div class="footer-bar">
+  <div class="contact">
+    <strong>Contact</strong><br>
+    [Creator Name] &nbsp;|&nbsp; [Email] &nbsp;|&nbsp; [Phone]
+  </div>
+  <div class="copyright">
+    &copy; 2026 [Creator Name]. All rights reserved.<br>
+    Rocket Rob&trade; &mdash; Story, characters &amp; creative concepts by [Creator Name].
+  </div>
+</div>
+
+</body>
+</html>

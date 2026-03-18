@@ -72,7 +72,7 @@ But his real weapon is his philosophy. He doesn't just fight Rob physically — 
 
 ## The Confrontation
 
-During the final battle, Volt mocks Rob:
+During the final battle, Watt mocks Rob:
 
 > "You could have been great, Rob."
 > "Instead you chose bedtime stories and hockey games."
@@ -81,11 +81,11 @@ And later:
 
 > "Heroes don't tuck kids into bed."
 
-Rob's answer — choosing to stabilize the city over a dramatic hero moment, then making it home to Max — proves Volt wrong without a single punch.
+Rob's answer — choosing to stabilize the city over a dramatic hero moment, then making it home to Max — proves Watt wrong without a single punch.
 
 ### The Exit
 
-Volt doesn't get arrested or destroyed. After his machine is gone and Rob has won, Volt says: "You were always the better one of us." Then he reaches into his coat, pulls out the creased photo, looks at it, and steps off the roof into the dark.
+Watt doesn't get arrested or destroyed. After his machine is gone and Rob has won, Watt says: "You were always the better one of us." Then he reaches into his coat, pulls out the creased photo, looks at it, and steps off the roof into the dark.
 
 He's not defeated by force. He's defeated by being proven wrong. His loneliness is his punishment. And the photo tells the audience: he could have been Rob. This leaves the door open for a redemption arc in the series expansion.
 
@@ -108,7 +108,7 @@ Victor carries a creased photograph in his coat. We never see what's in it. He n
 
 The audience understands without being told: Victor Watt still has something personal he never threw away. A family photo. A friend. A version of himself he abandoned. He could have been Rob. That's the devastation.
 
-This detail makes Volt a Pixar villain, not a cartoon villain. His loneliness is his punishment. And the photo is proof that he knows it.
+This detail makes Watt a Pixar villain, not a cartoon villain. His loneliness is his punishment. And the photo is proof that he knows it.
 
 ## Key Lines
 

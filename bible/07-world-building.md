@@ -12,7 +12,7 @@ The city itself is neutral. The Canadian identity belongs to **Rob** — it's wh
 
 The city is a character in its own right. It should feel:
 
-- **Optimistic** — Even at night, even during a Volt attack, the palette stays rich and warm. This is a world kids want to live in.
+- **Optimistic** — Even at night, even during a Watt attack, the palette stays rich and warm. This is a world kids want to live in.
 - **Modern but friendly** — Clean lines softened by rounded Pixar architecture. Think Apple Store meets neighborhood bakery.
 - **Lived-in** — Not sterile. There are coffee shops, parks, a worn-in hockey arena. It has texture.
 
@@ -28,7 +28,7 @@ The city is a character in its own right. It should feel:
 
 ### Architecture Rules
 
-- Rounded shapes (no harsh angles except in Volt's spaces)
+- Rounded shapes (no harsh angles except in Watt's spaces)
 - Soft lighting with warm color temperature
 - Bright color accents against neutral bases
 - Buildings have personality — leaning, curved, slightly exaggerated
@@ -42,7 +42,7 @@ The city is a character in its own right. It should feel:
 | Afternoon | Bright, saturated, full spectrum | Energy, adventure |
 | Golden hour | Deep amber, long shadows | Emotional, reflective |
 | Night | Rich navy and deep blue (never black) | Dramatic but still warm |
-| Storm (Volt scenes) | Electric blue and purple against dark sky | Threat, but still beautiful |
+| Storm (Watt scenes) | Electric blue and purple against dark sky | Threat, but still beautiful |
 
 ## Titan Sports Tech
 
@@ -63,8 +63,8 @@ Titan is where Rob's work-life tension lives. It's also Victor Watt's origin —
 
 ### Key Spaces Within Titan
 - **Rob's cubicle** — Messy. Team Canada mug. Family photos. Stacks of paper. A drawing from Max pinned to the wall.
-- **The executive floor** — Where Volt used to work. Pristine. Empty. The opposite of Rob's space.
-- **The lab** — Where experimental tech is developed. The cat sidekick's harness gadgets were sourced (accidentally) from here.
+- **The executive floor** — Where Watt used to work. Pristine. Empty. The opposite of Rob's space.
+- **The lab** — Where experimental tech is developed. Maple's harness gadgets were sourced (accidentally) from here.
 
 ## Rob's Canadian Identity in the World
 

@@ -150,7 +150,7 @@ These three images define the visual tone and style of the entire film. All new 
 | Claire / Vela (split) | `art/characters/claire-velocity-split.png` | Everyday Claire + Vela side by side — **primary Claire reference** |
 | Claire / Vela (full suit) | `art/characters/claire-velocity.png` | Claire in full Vela suit |
 | Max character sheet | `art/characters/max-character-sheet.png` | Max at age 8 — 4 poses, hockey gear, dish-towel cape |
-| Cat sidekick | `art/characters/cat-sidekick-concept.png` | [Name TBD] — orange tabby, RR harness, 4 poses |
+| Maple (cat sidekick) | `art/characters/cat-sidekick-concept.png` | Maple — orange tabby, RR harness, 4 poses |
 | Coach Hank | `art/characters/coach-hank-character-concept.png` | Character concept — rinkside gruff mentor |
 | Shadow Dad | `art/characters/shadow-dad-concept.png` | Psychological concept — Rob's fear made visible |
 | Lavoie family scene | `art/characters/carter-family-scene.png` | Rob, Claire, and Max — kitchen scene |
@@ -179,7 +179,7 @@ These three images define the visual tone and style of the entire film. All new 
 | Little Hero Moments | `art/keyart/little-hero-moments.png` | Montage scene still |
 | Hockey game | `art/keyart/hockey-game.png` | Empty seat, bench moment — the scene that breaks parents |
 | Title sequence | `art/keyart/title-sequence.png` | City at dawn — title card still |
-| Final battle | `art/keyart/final-battle.png` | Claire as Vela, Volt's reckoning — climax scene |
+| Final battle | `art/keyart/final-battle.png` | Claire as Vela, Watt's reckoning — climax scene |
 
 ### Books
 

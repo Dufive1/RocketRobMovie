@@ -51,7 +51,7 @@ Reactive perfectionism. She takes too much on herself, which isolates her emotio
 | Rising load | Act Two | Rob's double life means Claire carries more. She covers for him. Drives Max. Handles the house. The invisible load becomes visible. |
 | The crack | Mid-Act Two | She's tired. Sharp where she used to be warm. A flash of frustration she immediately buries. |
 | Confrontation | Act Two low point | She tells Rob: "You're trying to save everyone except the people in this house." Then: "I know what you're trying to do. I've done it." |
-| The Reveal | ~65 min | Volt attacks the Lavoie neighborhood. Claire moves like someone who's done this before. Rob sees it. "Claire... how did you—" She drops the mask: "I was Vela before you were Rocket Rob." |
+| The Reveal | ~65 min | Watt attacks the Lavoie neighborhood. Claire moves like someone who's done this before. Rob sees it. "Claire... how did you—" She drops the mask: "I was Vela before you were Rocket Rob." |
 | The Choice Explained | ~67 min | Rob asks why she stopped. Claire, looking toward Max's room: "Because I chose something harder." |
 | Active Hero | Act Three | Claire is Vela again. Not because she wants to be, but because the family needs her to be. She coordinates the ground while Rob takes the sky. |
 | Resolution | Finale | She's no longer carrying everything alone. Rob sees her. They stand in the kitchen together. Equal. Present. |
@@ -146,7 +146,7 @@ Claire doesn't take over Rob's fight. She handles the ground while he handles th
 
 - Coordinates civilian evacuation
 - Protects the arena where Max's rescheduled game is happening
-- Outsmarts Volt's ground-level tech with experience Volt didn't know she had
+- Outsmarts Watt's ground-level tech with experience Watt didn't know she had
 - Max sees both parents are heroes — in different ways
 
 ## Character Constellation Role

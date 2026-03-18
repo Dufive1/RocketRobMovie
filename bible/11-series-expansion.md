@@ -20,7 +20,7 @@ The audience gradually stops being sure which track is "real."
 
 **The Real Problem**: Rob is late to pick up Max from hockey practice — again. He promises to make it to the championship game.
 
-**The Hero Problem**: Victor Watt announces his energy technology. When Rob pushes back on its safety, Volt begins his descent into villainy.
+**The Hero Problem**: Victor Watt announces his energy technology. When Rob pushes back on its safety, Watt begins his descent into villainy.
 
 **Theme**: Setting the stakes — can Rob be the dad Max believes in?
 
@@ -62,7 +62,7 @@ The audience gradually stops being sure which track is "real."
 
 **The Real Problem**: Max has a huge assignment due. He can't focus. Rob can't help without doing it for him.
 
-**The Hero Problem**: The Homework Hydra returns — each head (math, science, spelling, history) must be defeated differently. The cat sidekick keeps showing up and accidentally solving the wrong problem at exactly the right moment.
+**The Hero Problem**: The Homework Hydra returns — each head (math, science, spelling, history) must be defeated differently. Maple keeps showing up and accidentally solving the wrong problem at exactly the right moment.
 
 **Theme**: Learning to struggle. Rob must let Max fail a little to help him grow.
 
@@ -114,7 +114,7 @@ The audience gradually stops being sure which track is "real."
 
 **The Real Problem**: Max's championship hockey game is today. Rob promises to be there. Victor Watt launches his full attack on the city.
 
-**The Hero Problem**: Volt's power machine threatens the entire city grid. Rob must stop him. But the game is in two hours. Then one. Then it's started.
+**The Hero Problem**: Watt's power machine threatens the entire city grid. Rob must stop him. But the game is in two hours. Then one. Then it's started.
 
 **Theme**: "Being a hero isn't about saving the world. It's about showing up for the people who believe in you."
 

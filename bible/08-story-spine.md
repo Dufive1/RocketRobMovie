@@ -46,9 +46,9 @@ Claire carried the invisible load — the pickups, the dinners, the bedtimes, th
 
 Rob's former colleague Victor Watt unveils a revolutionary energy technology that could power the entire city.
 
-But Volt has a darker plan. He believes the world needs great heroes who sacrifice everything — including family — to change it.
+But Watt has a darker plan. He believes the world needs great heroes who sacrifice everything — including family — to change it.
 
-When Rob refuses to help him, Volt turns his invention into a dangerous power machine that threatens the city.
+When Rob refuses to help him, Watt turns his invention into a dangerous power machine that threatens the city.
 
 Suddenly Rob must decide:
 
@@ -58,7 +58,7 @@ Or stay the safe, ordinary dad he thinks he is.
 
 ## Because of that…
 
-Rob begins secretly trying to stop Volt while still showing up for Max.
+Rob begins secretly trying to stop Watt while still showing up for Max.
 
 But every heroic moment comes at a cost. He misses:
 
@@ -76,7 +76,7 @@ Meanwhile, Claire absorbs everything Rob can't do. She drives Max. She handles t
 
 Rob pushes himself harder trying to be both hero and dad.
 
-He becomes exhausted, overwhelmed, and unsure if he's doing the right thing. Volt's philosophy — "You can save the world or be there for your family. Not both" — starts to feel true.
+He becomes exhausted, overwhelmed, and unsure if he's doing the right thing. Watt's philosophy — "You can save the world or be there for your family. Not both" — starts to feel true.
 
 In his lowest moment, Rob encounters the Shadow Dad — a vision of himself if he chose work over family. Successful. Powerful. Empty. "They'll understand when they're older." Rob realizes: *They won't.*
 
@@ -84,7 +84,7 @@ Claire confronts Rob — not with anger, but with honesty: "You're trying to sav
 
 ## Until finally…
 
-Volt attacks the Lavoie neighborhood. The house goes dark. Claire moves like someone who's done this before. Gets Max safe. Reroutes power. Shields her family with speed that isn't normal.
+Watt attacks the Lavoie neighborhood. The house goes dark. Claire moves like someone who's done this before. Gets Max safe. Reroutes power. Shields her family with speed that isn't normal.
 
 Rob sees it. Claire drops the mask — not a superhero mask, but the one she's been wearing for years.
 
@@ -92,13 +92,13 @@ Rob sees it. Claire drops the mask — not a superhero mask, but the one she's b
 
 Rob understands two things: Claire sacrificed her hero identity for the family. And he's about to sacrifice the family for his. He's becoming what she walked away from.
 
-Together — for the first time as partners — they face Volt. Claire coordinates the ground. Rob takes the sky. She lets him lead the mission. He lets her be seen. They're a team.
+Together — for the first time as partners — they face Watt. Claire coordinates the ground. Rob takes the sky. She lets him lead the mission. He lets her be seen. They're a team.
 
-Rob confronts Volt. Finds Max's drawing in his belt buckle. "My Dad Saves The World." He understands: Max believed because Rob showed up, not because he saved the city.
+Rob confronts Watt. Finds Max's drawing in his belt buckle. "My Dad Saves The World." He understands: Max believed because Rob showed up, not because he saved the city.
 
 Rob absorbs the machine's energy. Stabilizes the grid. No dramatic explosion. Just the right choice.
 
-Volt, broken, reaches for a photo he's carried for years. "You were always the better one of us." He steps off the roof and disappears.
+Watt, broken, reaches for a photo he's carried for years. "You were always the better one of us." He steps off the roof and disappears.
 
 ## And ever since then…
 

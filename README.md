@@ -18,7 +18,7 @@ Rob Lavoie is a Canadian dad living in a fictional Pixar-style city, working at 
 | [Claire / Vela](bible/03-claire-velocity.md) | Claire Lavoie — full character profile with B-arc, Vela reveal, active battle role |
 | [Max](bible/04-max.md) | Max Lavoie — character profile with The Silence arc |
 | [Victor Watt](bible/05-victor-volt.md) | Main villain profile with photo exit beat |
-| [Supporting Cast](bible/06-supporting-cast.md) | Coach Hank, cat sidekick [Name TBD], secondary villains (movie vs. series-expansion) |
+| [Supporting Cast](bible/06-supporting-cast.md) | Coach Hank, Maple (cat sidekick), secondary villains (movie vs. series-expansion) |
 | [World Building](bible/07-world-building.md) | The city, Titan Sports, Canadian identity, the two worlds |
 | [Story Spine](bible/08-story-spine.md) | Full Pixar-format story spine with Claire's arc and Max's silence |
 | [Character Constellation](bible/09-character-constellation.md) | Thematic character map with full arcs and movie scene table |
@@ -52,7 +52,7 @@ art/
 │   ├── claire-velocity-split.png            # Everyday Claire + Vela — primary Claire ref ★
 │   ├── claire-velocity.png                  # Claire in full Vela suit
 │   ├── max-character-sheet.png              # Max poses, expressions, hockey gear (age 8)
-│   ├── cat-sidekick-concept.png             # Sidekick cat [name TBD] — character concept
+│   ├── cat-sidekick-concept.png             # Maple — orange tabby sidekick concept
 │   ├── coach-hank-character-concept.png     # Coach Hank — rinkside mentor concept
 │   ├── shadow-dad-concept.png               # Shadow Dad — Rob's fear made visible
 │   └── villains/

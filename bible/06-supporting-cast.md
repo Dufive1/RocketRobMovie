@@ -35,12 +35,12 @@ Max's hockey coach. Gruff but secretly soft. Becomes Rob's unexpected mentor.
 
 ---
 
-## [Name TBD] — The Sidekick Cat
+## Maple — The Sidekick Cat
 
 > "..."  *(just stares at you until you figure it out)*
 
-### Name Status
-Name is pending. Options in consideration: Patch, Byte, Radar, Sprocket, Spark. The character is fully designed — name to be confirmed.
+### Name
+Maple. An orange tabby with a Canadian name that fits — sweet, warm, and impossible to ignore.
 
 ### Role
 An orange tabby who decided Rob was his human long before Rob agreed. Somehow always present during hero moments, always underfoot at the worst time, and weirdly effective at the right moment. Comic relief with accidental truth.
@@ -63,7 +63,7 @@ An orange tabby who decided Rob was his human long before Rob agreed. Somehow al
 The cat takes dad phrases as direct instruction.
 
 > Rob: "Let's wing it."
-> *Cat deploys himself off the nearest surface and lands on Volt's head.*
+> *Cat deploys himself off the nearest surface and lands on Watt's head.*
 
 > Rob: "We're in hot water."
 > *Cat immediately walks to the kettle and stares at it.*
@@ -126,7 +126,7 @@ A time-obsessed villain with clock-based powers.
 | Appearance | Older, imposing, white-haired. Clock chest piece. Staff with clock mechanisms. Cape. |
 | Powers | Time manipulation, slowing/speeding time to trap Rob |
 | Represents | The endless grind — the feeling that there's never enough time |
-| Relationship to Volt | Could be Victor's mentor or predecessor |
+| Relationship to Watt | Could be Victor's mentor or predecessor |
 
 Art reference: `art/characters/villains/dr-overtime-and-deadline.png` (left figure)
 

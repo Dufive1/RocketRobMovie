@@ -53,7 +53,7 @@ Max at school and hockey practice. Coach Hank introduced. Max narrates everythin
 
 Claire at home and work — capable, organized, subtly more competent than she lets on. Quick, knowing reactions when Rob describes something "weird" that happened. She moves a little too fast. Catches things she shouldn't be able to catch. The audience doesn't notice yet. But it's there.
 
-The cat sidekick introduced — an orange tabby who has claimed Rob as his human and wears a repurposed Titan Sports Tech harness (with gadgets he probably knocked off Rob's desk). Comic relief. Takes everything Rob says as direct instruction.
+Maple the cat introduced — an orange tabby who has claimed Rob as his human and wears a repurposed Titan Sports Tech harness (with gadgets he probably knocked off Rob's desk). Comic relief. Takes everything Rob says as direct instruction.
 
 Max's imagination track is in full force: when Rob is late from work, Max narrates why — and the audience sees his invented villains, Dr. Overtime and The Countdown, as the enemies keeping Rocket Rob from coming home. These imagination villains appear throughout Acts One and early Two as part of the colorful overlay. When The Silence falls, they disappear along with everything else Max created.
 
@@ -71,9 +71,9 @@ Final shot: Max hands Rob a drawing — Rocket Rob flying with a hockey stick. "
 
 Victor Watt reappears. Former Titan colleague, now powerful and solo. Unveils his "revolutionary energy technology" at a public event. Rob attends. Something feels wrong about it.
 
-Rob confronts Volt privately. Volt's philosophy surfaces: "Family makes you weak." Rob refuses to support the project.
+Rob confronts Watt privately. Watt's philosophy surfaces: "Family makes you weak." Rob refuses to support the project.
 
-Volt activates the machine. The city grid flickers. Power surges. This isn't innovation — it's control.
+Watt activates the machine. The city grid flickers. Power surges. This isn't innovation — it's control.
 
 **Act One Turning Point**: The city is in danger. Rob must decide — be the hero Max imagines, or stay safe. He chooses to act.
 
@@ -86,7 +86,7 @@ Volt activates the machine. The city grid flickers. Power surges. This isn't inn
 Rob tries to be Rocket Rob AND Rob Lavoie. Every save costs family time.
 
 - He stops a power surge downtown. Misses hockey practice pickup. Claire covers.
-- He dismantles one of Volt's relay stations. Gets home late. Max is already asleep.
+- He dismantles one of Watt's relay stations. Gets home late. Max is already asleep.
 - He intercepts a grid failure at the hospital. Misses Max's pre-game skate.
 
 Each time, Max's narration covers for him: "Rocket Rob is on a secret mission!" But the narration gets quieter. Less excited. More routine.
@@ -124,7 +124,7 @@ And Rob changes. Without the belief powering him, he's slower, less certain, les
 
 **Sequence**: "The Hockey Game" (see `scripts/hockey-game-scene.md`)
 
-Championship day. Rob promises to be there. Volt's machine escalates — citywide blackouts.
+Championship day. Rob promises to be there. Watt's machine escalates — citywide blackouts.
 
 Rob saves the city. Misses the game.
 
@@ -146,7 +146,7 @@ Rob is exhausted. Overwhelmed. Failing at both lives.
 
 Rob realizes: *They won't.*
 
-Volt's words start echoing: "You can save the world or be there for your family. Not both." Rob starts to believe it.
+Watt's words start echoing: "You can save the world or be there for your family. Not both." Rob starts to believe it.
 
 Claire confronts Rob. Not with anger — with honesty:
 
@@ -165,7 +165,7 @@ Beat. Rob doesn't understand. Yet.
 
 ### The Vela Reveal (~65:00–70:00)
 
-Volt launches a targeted attack on the Lavoie neighborhood. Power fails. The house goes dark.
+Watt launches a targeted attack on the Lavoie neighborhood. Power fails. The house goes dark.
 
 Claire moves. Not like a worried mom. Like someone who's done this before.
 
@@ -203,15 +203,15 @@ This is Claire's B-arc thesis: she chose family over the cape. And it was harder
 
 **Sequence**: "What Makes a Hero" (see `scripts/final-battle.md`)
 
-Massive storm. Volt's machine at full power atop Titan tower.
+Massive storm. Watt's machine at full power atop Titan tower.
 
 But this time, Rob isn't alone. Claire is Vela again — not because she wants to be, but because the family needs her to be.
 
-She coordinates the ground: evacuating civilians, protecting infrastructure, shielding the arena where Max's rescheduled game is happening. Rob takes the sky: heading for Volt's machine.
+She coordinates the ground: evacuating civilians, protecting infrastructure, shielding the arena where Max's rescheduled game is happening. Rob takes the sky: heading for Watt's machine.
 
 They work as a team. For the first time, Claire lets Rob lead the hero mission while she handles what she's always handled — keeping the family safe. But now she's doing it openly, not invisibly.
 
-On the rooftop, Rob confronts Volt. The philosophy clash. "Heroes don't tuck kids into bed."
+On the rooftop, Rob confronts Watt. The philosophy clash. "Heroes don't tuck kids into bed."
 
 Rob finds Max's drawing in his belt buckle. "My Dad Saves The World."
 
@@ -219,7 +219,7 @@ He understands. Max never believed because of the city. Max believed because Rob
 
 Rob absorbs the machine's energy. Stabilizes the grid. No explosion. No dramatic moment. Just the right choice.
 
-Volt, broken:
+Watt, broken:
 
 > "...Why?"
 
@@ -227,7 +227,7 @@ Rob:
 
 > "Because someone's waiting for me at home."
 
-**Volt's Exit**: "You were always the better one of us." He pauses. Reaches into his coat. Pulls out something small — a creased, old photo he's carried for years. We don't see what's in it. He looks at it. Puts it back. Steps off the edge and disappears.
+**Watt's Exit**: "You were always the better one of us." He pauses. Reaches into his coat. Pulls out something small — a creased, old photo he's carried for years. We don't see what's in it. He looks at it. Puts it back. Steps off the edge and disappears.
 
 The audience understands: he could have been Rob.
 
@@ -281,12 +281,12 @@ FADE TO BLACK.
 | Opening | 0:00 | Epic battle / kitchen hard cut | Hook + tone |
 | World setup | 5:00 | Family, Titan, hockey, Claire seeds | Grounding |
 | Montage | 12:00 | "Little Hero Moments" | Bond the audience to the family |
-| Inciting incident | 18:00 | Volt's machine, Rob's choice | Story begins |
+| Inciting incident | 18:00 | Watt's machine, Rob's choice | Story begins |
 | Double life | 25:00 | Hero saves cost family time | Rising tension |
 | The Silence | 40:00 | Max stops narrating | Emotional gut punch |
 | Hockey game | 50:00 | Missed game, the hug | The scene that breaks parents |
-| Low point | 58:00 | Shadow Dad, Volt's philosophy wins | Darkest moment |
+| Low point | 58:00 | Shadow Dad, Watt's philosophy wins | Darkest moment |
 | Vela reveal | 65:00 | Claire was a hero first | Recontextualizes everything |
-| Final battle | 70:00 | Rob + Claire vs. Volt | Thematic climax |
+| Final battle | 70:00 | Rob + Claire vs. Watt | Thematic climax |
 | Resolution | 82:00 | Arena, bedroom, kitchen | Emotional landing |
 | Final image | 88:00 | Max's narration returns | The Pixar moment |

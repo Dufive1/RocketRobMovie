@@ -39,7 +39,7 @@ Every character either supports, challenges, or distorts this belief. When they 
 ```
 
 Max sits beneath Rob because he is the power source. Belief flows *up*. Rob's heroism is powered by Max's imagination. The constellation's energy starts at the bottom.
-Volt sits above as the ideological challenge.
+Watt sits above as the ideological challenge.
 Claire sits beside Rob — equal, parallel, carrying her own arc.
 Everything pushes Rob toward his final realization — but the power to reach it comes from below.
 
@@ -75,7 +75,7 @@ Everything pushes Rob toward his final realization — but the power to reach it
 
 **Belief**: "Greatness requires sacrifice — especially family."
 
-**Function**: Volt is Rob's dark mirror. Where Rob chose family, Volt chose power. He represents obsession, ego, and loneliness. He is the "False Answer" to the theme.
+**Function**: Watt is Rob's dark mirror. Where Rob chose family, Watt chose power. He represents obsession, ego, and loneliness. He is the "False Answer" to the theme.
 
 **Exit**: Not defeated by force. Defeated by being proven wrong. "You were always the better one of us." The photo he carries tells the audience he could have been Rob.
 
@@ -91,7 +91,7 @@ Everything pushes Rob toward his final realization — but the power to reach it
 
 **Function**: Unlike a character who needs to *learn* love, the cat already has it — he just expresses it sideways. He takes everything Rob says as direct instruction, appearing in situations that require him to be there and disappearing when nothing heroic is happening. He doesn't solve problems with logic or heart. He solves them by being present when nobody asked him to be. That's the theme in its purest, furriest form.
 
-**Name**: TBD. Options in consideration: Patch, Byte, Radar, Sprocket, Spark.
+**Name**: Maple.
 
 ### The Shadow Dad — Rob's Fear
 
@@ -107,14 +107,14 @@ Every major scene involves at least two constellation positions in tension:
 |-------|----------------------|----------------|
 | Opening (kitchen) | Rob + Max | Max sees a hero; Rob sees a tired dad |
 | Establishing world | Rob + Claire | Claire carries what Rob doesn't see |
-| Volt's announcement | Rob + Volt | Family vs. ambition |
+| Watt's announcement | Rob + Watt | Family vs. ambition |
 | The double life | Rob + Claire + Max + Cat | Each save costs family; Claire absorbs the cost; cat keeps showing up |
 | The Silence begins | Max (alone) | Faith tested by absence |
 | Hockey game | Rob + Max + Coach Hank | Showing up vs. saving the world |
 | Shadow Dad moment | Rob + Shadow Dad | Who Rob fears becoming |
 | Claire confronts Rob | Rob + Claire | "I know what you're trying to do. I've done it." |
 | Vela reveal | Claire (center) | Recontextualizes everything |
-| Final battle | Rob + Claire + Volt | Two arcs converge; both heroes, together |
+| Final battle | Rob + Claire + Watt | Two arcs converge; both heroes, together |
 | The resolution | Rob + Max + Claire | Theme resolved through love; narration returns |
 
 ## Why Pixar Uses This System
