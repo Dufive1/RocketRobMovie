@@ -174,6 +174,7 @@ These three images define the visual tone and style of the entire film. All new 
 | Movie poster (official) | `art/keyart/poster-movie.png` | Final movie poster with title |
 | Emotional poster | `art/keyart/poster-emotional.png` | Family-focused poster |
 | Adventure poster | `art/keyart/poster-adventure.png` | Action-focused poster |
+| Master poster | `art/keyart/poster-master.png` | The dish-towel cape moment — Max, Rob, the shadow, the belief ★ |
 | Mystery poster | `art/keyart/poster-mystery.png` | Mystery poster with tagline |
 | Opening sequence | `art/keyart/opening-sequence.png` | Rooftop battle — opening scene still |
 | Little Hero Moments | `art/keyart/little-hero-moments.png` | Montage scene still |

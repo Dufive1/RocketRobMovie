@@ -72,6 +72,7 @@ art/
 │   ├── poster-movie.png                     # Official movie poster with title
 │   ├── poster-emotional.png                 # Family-focused poster
 │   ├── poster-adventure.png                 # Action-focused poster
+│   ├── poster-master.png                    # Master poster — the dish-towel cape moment ★
 │   ├── poster-mystery.png                   # Mystery poster with tagline
 │   ├── opening-sequence.png                 # Opening rooftop battle scene still
 │   ├── little-hero-moments.png              # Little Hero Moments montage still
